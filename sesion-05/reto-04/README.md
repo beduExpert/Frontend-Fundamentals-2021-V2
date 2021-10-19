@@ -27,7 +27,7 @@ tamaño de pantalla. ¿Cómo la mejoramos?
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   .feature-image {
     display: none;
   }
@@ -37,4 +37,4 @@ tamaño de pantalla. ¿Cómo la mejoramos?
 
 <br/>
 
-[Siguiente](../Ejemplo-05)
+[Siguiente](../Ejemplo-06)

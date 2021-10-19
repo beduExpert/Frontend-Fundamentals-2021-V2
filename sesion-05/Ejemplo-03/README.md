@@ -11,7 +11,7 @@ cuando se encuentre en dispositivos pequeños, ya que si lo aplicamos de forma
 genérica afectaríamos su apariencia en dispositivos medianos y grandes (donde ya
 se veían bien).
 
-Agreguemos una clase al banner y modifiquemos sus estilos:
+Agreguemos una clase al banner en el media-query y modifiquemos sus estilos:
 
 ```html
 <main>
@@ -36,7 +36,7 @@ Agreguemos una clase al banner y modifiquemos sus estilos:
 ```
 
 Con los cambios realizados hasta el momento, nuestra web en dispositivos
-pequeños deberían de verse así:
+pequeños debería verse así:
 
 ![Resultado parcial de la página responsiva](../assets/home-responsive.png)
 
