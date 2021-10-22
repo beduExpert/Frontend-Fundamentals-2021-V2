@@ -1,45 +1,38 @@
-# Ej. 01 - Agregando estilos de Bootstrap al proyecto
+# Ej. 01 - Agregando javascript al proyecto
 
-Ahora que ya sabemos que vamos a usar un framework de CSS y que será Bootstrap,
-necesitamos agregarlo a nuestro proyecto para empezar a usarlo.
+En la sección de inicio de la documentación de Bootstrap, nosotros encontramos
+los links para el código fuente del CSS de este framework y los agregamos a
+nuestro HTML. Lo mismo sucede con JavaScript. En esta ocasión, nosotros no
+queremos agregar el CSS de Bootstrap, ahora queremos agregar el JS que este
+framework nos provee. Para esto, podemos ir a la [documentación oficial](https://getbootstrap.com/docs/5.1/getting-started/introduction/#js) y copiar el elemento que menciona en la sección **[Bundle](https://getbootstrap.com/docs/5.1/getting-started/introduction/#bundle)**.
 
-La forma de agregar Boostrap es a través de links externos que hacen referencia
-a un archivo de CSS y algunos archivos de **JavaScript**. Este término puede que
-sea nuevo o tal vez lo recuerdes desde el prework de la primera sesión. En
-cualquier caso, JavaScript es el único lenguaje de programación que el navegador
-soporta nativamente, y es el lenguaje que nos permite agregar interacción y
-funcionalidad a nuestra web. En este curso, no estaremos programando en
-JavaScript, pero dado que Bootstrap lo usa para ciertos componentes, lo usaremos
-a través del framework sin que nosotros necesariamente tengamos que programar.
-
-Empecemos agregando solo el CSS, para esto, debemos ingresar a la sección de
-[empezar con Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/#css),
-en el apartado de `CSS` encontraremos una etiqueta `<link />` con una sintaxis
-similar a la que nosotros usamos para indicarle a nuestro HTML dónde encontrar
-los estilos de nuestra web. Vamos a copiar toda esa línea de código y la vamos
-a pegar en nuestro `index.html`. La ubicación en la cual lo peguemos es
-importante, dado que `CSS` al ser un lenguaje en cascada, si coincide algún
-nombre de clase que usa Boostrap con alguna que nosotros estamos, podríamos
-terminar sobreescribiendo los nombres y el que prevalezca dependerá del orden en
-el que encuentre nuestras hojas de estilo.
-
-Por lo tanto, nosotros queremos agarrar la mayoría de estilos que Bootstrap nos
-trae consigo, pero en caso algo no esté alineado con nuestro diseño, debemos de
-personalizarlo, por ello pondremos primero el `<link />` de Bootstrap seguido
-por el nuestro, quedando algo como:
+Ahora, siguiendo las instrucciones de la documentación, simplemente pegamos ese pequeño tag `<script>`en nuestro desarrollo justo arriba de la etiqueta de cierre `</body>`.
 
 ```html
-<head>
-  <!-- Aquí van las otras etiquetas del head -->
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" type="text/css" href="./styles.css" />
-</head>
+<body>
+  <!-- Aqui va todo el contenido del proyecto -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
 ```
+Si reduces la pantalla en la vista responsive del navegador, observarás que la información de la barra de navegación no está bien acomodada.
+
+![Barra de navegación de Bootstrap con contenido mal alineado](../assets/navbar-with-wrong-styles.png)
+
+Esto se debe a los estilos que establecimos en el media query. Hay que modificarlos de esta manera:
+
+```css
+  .actions,
+  .navbar {
+    text-align: center;
+  }
+```
+Ahora, nuestra barra de navegación en pantallas pequeñas se ve correctamente alineada.
+
+![Barra de navegación de Bootstrap con contenido mal alineado](../assets/navbar-corregida.png)
+
+Con esto, ya tenemos la funcionalidad completa de Bootstrap, estilos y componentes, con lo que nuestro desarrollo tenderá a ser más ágil y rápido. Sin embargo, te sugerimos practicar continuamente para que llegues a dominar el completo potencial de este framework de CSS.
 
 <br/>
 

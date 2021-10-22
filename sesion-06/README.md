@@ -13,20 +13,22 @@ En esta sesión aprenderás:
 
 ## Organización de la clase
 
-- [Ejemplo 01: Agregando estilos de Bootstrap al proyecto ( 5 minutos ) ](./Ejemplo-01)
+- [Ejemplo 01: Agregando javascript a Bootstrap ( 5 minutos ) ](./Ejemplo-01)
 
-- [Reto  01: Personaliza el contenido de tu navbar ( 15 minutos ) ](./reto-01)
+- [Reto 01 - Fijando la barra de navegación a la parte superior de la pantalla ( 5 minutos ) ](./reto-01)
 
-- [Ejemplo  02: Agregando el navbar ( 10 minutos ) ](./Ejemplo-02)
+- [Ejemplo  02: Agregando un carrusel ( 20 minutos ) ](./Ejemplo-02)
 
-- [Reto  02: Agregando Carousel ( 15 minutos ) ](./reto-02)
+- [Reto  02: Agregar el Carousel y la primer tarjeta ( 30 minutos ) ](./reto-02)
 
-- [Ejemplo  03: Recuperando los estilos de la barra de navegación ( 10 minutos ) ](./Ejemplo-03)
+- [Reto  03: Agregar las dos tarjetas restantes ( 15 minutos ) ](./reto-03)
 
-- [Reto  03: Agrega elemementos de Matcha con Bootstrap ( 25 minutos ) ](./reto-03)
+- [Ejemplo  03: Agregando una nueva página ( 15 minutos ) ](./Ejemplo-03)
 
-- [Ejemplo  04: Revisando el responsive del navbar ( 15 minutos ) ](./Ejemplo-04)
+- [Reto  04: Agregando la sección principal y botones ( 15 minutos ) ](./reto-04)
 
-- [Reto  04: Volviendo la barra de navegación fija ( 10 minutos ) ](./reto-04)
+- [Ejemplo  04: Agregando otro componente de Bootstrap ( 20 minutos ) ](./Ejemplo-04)
 
-- [Ejemplo  05: Agregando una nueva página ( 15 minutos ) ](./Ejemplo-05)
+- [Ejemplo  05: Agregando una sección de preguntas frecuentes ( 25 minutos ) ](./Ejemplo-05)
+
+- [Reto  05: Agregando la segunda columna de nuestras FAQ ( 15 minutos ) ](./reto-05)
