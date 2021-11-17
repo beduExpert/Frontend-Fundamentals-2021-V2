@@ -7,8 +7,8 @@ corrigiendo esto sección por sección. Empecemos por la sección de publicidad 
 está estructurada con propiedades de **Flexbox**.
 
 El motivo de desborde en esta sección es que nosotros esperamos que la pantalla
-se divida en 2 partes iguales hoizontalmente hablando para que de un lado se
-muestre el video y dek otro el call to action de publicidad, sin embargo el
+se divida en lo horizontal en 2 partes iguales para que en un lado se
+muestre el video y en el otro el _call-to-action_ de publicidad. Sin embargo, el
 ancho del video es muy grande como para que alcance el texto a su lado. Debido
 a esto, lo que haremos será cambiar la dirección del flujo de nuestra sección.
 Es decir, actualmente nuestro _flex container_ tiene la propiedad por defecto
@@ -72,11 +72,11 @@ pequeños:
 }
 ```
 
-Con este simple cambio nuestro texto de _call to action_ se movió a la parte
-inferior del video, sin embargo, si inspeccionamos los estilos que este contiene
+Con este simple cambio nuestro texto de _call-to-action_ se movió a la parte
+inferior del video, y si inspeccionamos los estilos que este contiene,
 notaremos que tiene un `max-width: 70%;` que nos ayudaba a poner un margen a los
 lados parar que se vea centrado. En la experiencia móvil, si bien deseamos
-mantener un margen, no debería ser tan grande dado que contamos con menos
+mantener un margen, no es conveniente que sea tan grande dado que contamos con menos
 espacio por lo que lo moveremos a un `90%` y ajustaremos el ancho del video para
 que respete este ancho también.
 

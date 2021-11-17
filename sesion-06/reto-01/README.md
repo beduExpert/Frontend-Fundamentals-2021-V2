@@ -1,75 +1,46 @@
-# Reto 01 - Personaliza el contenido de tu navbar
+# Reto 01 - Fijando la barra de navegación a la parte superior de la pantalla
 
 ## REQUISITOS
 - Tener Git Bash si usas Windows.
-- Conocer como instalar Bootstrap.
-
-<br/>
+- Saber que es responsive design
 
 ## INSTRUCCIONES
 
-Cambia el texto usado en el navbar por defecto al contenido que actualmente
-tenemos en nuestra página.
+Recuerdas que la barra de navegación tenía un posicionamiento fijo en la parte superior aún y cuando estemos haciendo scroll. ¿Has notado que este comportamiento ya no está presente? ¿Puedes solucionarlo?
 
-<br/>
+:::tip
+
+Al ser este un caso común, Bootstrap tiene clases utilitarias que pueden ayudar
+a lograr este comportamiento. Revisa [esta sección de navbar de la documentación](https://getbootstrap.com/docs/5.1/components/navbar/#placement) para que te des una idea de qué podrías usar.
+
+:::
 
 <details>
   <summary>Posible solución</summary>
 
-```html
-<body>
-  <!-- Nuestra barra de navegación comentada va aquí -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img
-        src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
-        alt="Matcha"
-      />
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+La clase `fixed-top` de Bootstrap nos ayuda a solucionar este problema:
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Platform</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Customers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resources</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <a>Sign In</a>
-        <button>Start free trial</button>
-      </form>
-    </div>
-  </nav>
-</body>
+```html
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <!-- Contenido de la barra de navegación -->
+</nav>
 ```
 
-Viéndose algo como:
+Si bien nuestra barra se posiciona como queremos, al momento de hacer scroll nos
+damos cuenta que no tiene un color de fondo porque el texto se mezcla con el
+resto del contenido de la página. Para esto, podemos agregarle un color de fondo
+a la clase `.navbar` que tenemos declarada en nuestros estilos:
 
-![Barra de navegación de Bootstrap con contenido](../assets/bootstrap-default-navbar-with-content.png)
-
+```css
+.navbar {
+  background-color: #fffbf7;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+```
 </details>
+
 
 <br/>
 

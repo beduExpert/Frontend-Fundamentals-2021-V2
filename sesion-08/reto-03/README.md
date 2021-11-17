@@ -1,4 +1,4 @@
-# Reto 03 - Agregar última sección de email de bienvenida
+# Reto 03 - Agregar una animación con CSS
 
 ## REQUISITOS
 - Tener Git Bash si usas Windows.
@@ -6,123 +6,231 @@
 
 ## INSTRUCCIONES
 
-Para cerrar con broche de oro este curso, te tocará implementar el footer del
-email de bienvenida, esto significa agregar el código necesario paa la última
-fila de la tabla que estructura nuestro correo de bienvenida.
+Para cerrar con broche de oro este curso, te tocará implementar una animación con un nuevo elemento. Debes insertar una flecha que se mueva hacia abajo 60px y vuelva a la posición inicial. Para ello, te recomendamos utilizar una nueva fila con Bootstrap, y aplicar un offset de 4 columnas para que el contenedor sea también de cuatro columnas, logrando el centrado de esos elementos.
 
-Para esto deberás insertar imágenes que estén dentro de enlaces para
-redireccionar a los usuarios cuando hagan click. Si deseas usar las mismas
-imágenes que te mostramos al inicio puedes usar los siguientes links:
+Una vez logrado eso, debes agregar tres elementos `<div>` para usarlos con distintas funciones para esta animación:
+- Contenedor de los elementos.
+- Contenedor donde la animación se utilizará, con posición relativa. Recuerda que esta posición hará que los elementos dentro del `<div>`, que tengan posición absoluta, se "peguen" a este contenedor y puedas ser utilizado como referencia dentro de la presentación visual.
+- Contenedor de la imagen con posición absoluta. Aquí estará la imagen y la animación.
 
-- [Ícono de Instagram](https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-icono-de-instagram-logo-by-vexels.png)
-- [Ícono de Twitter](https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png)
-- [Ícono de Facebook](https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-icono-de-facebook-logo-by-vexels.png)
-- [Ícono de LinkedIn](https://images.vexels.com/media/users/3/140687/isolated/preview/f705441ceeb70b9920ce6c37d80f5603-linkedin-distorsionado-icono-redondo-by-vexels.png)
+Esta es una imagen de cómo debe iniciar tu animación.
 
-- [Link de Instagram](https://www.instagram.com/matchacontent)
-- [Link de Twitter](https://twitter.com/matchacontent)
-- [Link de Facebook](https://www.facebook.com/matchacontent/)
-- [Link de LinkedIn](https://linkedin.com/company/matchacontent)
+![Estado inicial de la animación](../assets/flecha_animada.png)
+<br/>
 
-La fuente que usamos en el ejemplo es: `'Times New Roman', Times, serif`.
+Aquí encontrarás el elemento a animar. Recuerda investigar en Google cómo rotar elementos con CSS.
+
+![Flecha para animar](../assets/green-arrow.png)
+
+
 
 <br/>
 
 <details>
   <summary>Posible solución</summary>
 
+
+  Como lo habíamos comentado en la introducción a este reto, debes insertar una elemento **row**, y después un elemento de ancho col-md-4, con clase offset-md-4, para que sea posible centrar toda la animación sin necesidad de utilizar Flexbox o Grid de manera nativa.
+
+  Ahora, crearemos lo elementos con clase `.flecha`, `.flecha-contenedor` y `.flecha-animada`, que funcionarán a nuestro favor para mantener centrado el elemnto animado.
+
 ```html
-<tr>
-  <td
-    style="
-      padding-top: 20px;
-      padding-bottom: 20px;
-      font-family: 'Times New Roman', Times, serif;
-      color: #46484c;
-      font-size: 16px;
-    "
-  >
-    <p>Follow us on:</p>
-    <div>
-      <a
-        href="https://www.instagram.com/matchacontent"
-        style="display: inline-block; width: 50px; height: 50px;"
-      >
-        <img
-          style="width: 100%;"
-          src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-icono-de-instagram-logo-by-vexels.png"
-          alt="Instagram"
-        />
-      </a>
-      <a
-        href="https://www.facebook.com/matchacontent/"
-        style="display: inline-block; width: 50px; height: 50px;"
-      >
-        <img
-          style="width: 100%;"
-          src="https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-icono-de-facebook-logo-by-vexels.png"
-          alt="Facebook"
-        />
-      </a>
-      <a
-        href="https://twitter.com/matchacontent"
-        style="display: inline-block; width: 50px; height: 50px;"
-      >
-        <img
-          style="width: 100%;"
-          src="https://images.vexels.com/media/users/3/137419/isolated/preview/b1a3fab214230557053ed1c4bf17b46c-icono-de-twitter-logo-by-vexels.png"
-          alt="Twitter"
-        />
-      </a>
-      <a
-        href="https://linkedin.com/company/matchacontent"
-        style="display: inline-block; width: 50px; height: 50px;"
-      >
-        <img
-          style="width: 100%;"
-          src="https://images.vexels.com/media/users/3/140687/isolated/preview/f705441ceeb70b9920ce6c37d80f5603-linkedin-distorsionado-icono-redondo-by-vexels.png"
-          alt="LinkedIn"
-        />
-      </a>
-    </div>
-    <p>
-      © 2021 Matcha. All Rights Reserved
-    </p>
-  </td>
-</tr>
+
+<!-- Aquí va el elemento de texto de Top Features -->
+
+<!-- Este es el nuevo elemento que debes insertar -->
+      <div class="row">
+        <div class="offset-md-4 col-md-4">
+          <div class="flecha">
+            <div class="flecha-contenedor">
+              <div class="flecha-animada">
+                <img src="./images/green-arrow.png" alt="Flecha animada">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Aquí abajo están las imágenes -->
 ```
+Debemos recordar que una de las animaciones más sencillas es mover en un solo eje al elemento. Los elementos de posición, cuando el elemento tiene posición absoluta son la solución: *top*, *bottom*, *left* y *right*. Estas propiedades permiten mover desde la posición inicial en un solo eje, si usas la combinación *top-bottom* o *left-right*. Si quieres moverlo en dos dimensiones (como si lo movieras en diagonal), usarias las dos combinaciones.
+
+Repasando tu material del prework, te diste cuenta que las animaciones no solo son declarar propieades de CSS, sino que debes emplear reglas conocidas como `@keyframes`. Ahí debes colocar los estados que debe tener tu animación según avance en porcentaje.
+
+Las animaciones tienen propiedades que definen la animación: nombre de la regla que aplicarás, duración, veces que se repetirá, dirección y tipo de función de presentación. Ésta última propiedad la debes entender como la forma en que un elemento se moverá al inicio y/o final de un estado de animación.
+
+Vamos a agregar las propiedades CSS para que después nos organicemos con las reglas.
+
+```css
+
+.flecha {
+  margin: 0 auto;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 35px;
+
+  .flecha-contenedor {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 65px;
+
+    .flecha-animada {
+      position: absolute;
+      animation-name: up-and-down;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      height: 130px;
+      width: 130px;
+
+      img {
+        width: 130px;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+/* Aqui pondremos las reglas de @keyframes */
+}
+
+```
+<br/>
+
+Estos estilos por el momento solo rotan la imagen de la flecha hacia abajo, y todavía no hacen nada porque no hemos definido los diferentes estados de la animación con nombre **"up-and-down"**.
+
+Las reglas `@keyframes` definen esos estados o condiciones. Por ejemplo, si quieres que la flecha baje y vuelva a subir al punto inicial, tienes dos estados. El primer estado te permite tomar la flecha en su estados base, es decir, en la parte superior. Cuando la mueves hacia abajo, el segundo estado es cuando alcanza la posición de 60px abajo de la posición inicial, y el tercer estado es cuando regresa al origen.
+
+Vamos a agregar esta regla.
+
+```css
+
+.flecha {
+  margin: 0 auto;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 35px;
+
+  .flecha-contenedor {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 65px;
+
+    .flecha-animada {
+      position: absolute;
+      animation-name: up-and-down, alrededor;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      height: 130px;
+      width: 130px;
+
+      img {
+        width: 130px;
+        transform: rotate(-90deg);
+      }
+    }
+
+/* Estamos agregando la regla de descender y subir al punto inicial */
+    @keyframes up-and-down {
+      0% {
+        top: 0; /* Aquí inicia la animación */
+      }
+
+      25% {
+        top: -30px; /* Este es el punto donde alcanza la mitad del límite de los 60px, moviéndose hacia abajo */
+      }
+
+      50% {
+        top: -60px; /* Este es el punto donde alcanza el límite de los 60px */
+      }
+
+      75% {
+        top: -30px; /* Este es el punto donde alcanza la mitad del límite de los 60px, moviéndose hacia arriba */
+      }
+
+      100% {
+        top: 0; /* Aquí termina la animación, ubicando el elemento en el punto de inicio */
+      }
+    }
+  }
+```
+<br/>
+
+Como puedes notar, una animación solo requiere establecer el recorrido de los elementos.
+
+Ahora, ¿podrías hacer una animación que ahora mueva de arriba a abjo la flecha, sino también de lado a lado?. ¡Inténtalo! Es bastante entretenido...
+
+```css
+
+.flecha {
+  margin: 0 auto;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 35px;
+
+  .flecha-contenedor {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 65px;
+
+    .flecha-animada {
+      position: absolute;
+      animation-name: up-and-down, alrededor;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      height: 130px;
+      width: 130px;
+
+      img {
+        width: 130px;
+        transform: rotate(-90deg);
+      }
+    }
+
+    @keyframes alrededor {
+      from {left: -270px;}
+      to {left: 270px;}
+    }
+
+    @keyframes up-and-down {
+      0% {
+        top: 0;
+      }
+
+      25% {
+        top: -30px;
+      }
+
+      50% {
+        top: -60px;
+      }
+
+      75% {
+        top: -30px;
+      }
+
+      100% {
+        top: 0;
+      }
+    }
+  }
+
+```
+<br/>
+
+Solo un pequeño detalle: como verás, el código no está optimizado, ya que usamos dos animaciones definidas por los dos `@keyframe`. Lo hicmos así para que observes cómo podemos utilizar el CSS, siendo esto sólo un ejemplo de cómo puedes dar pequeños detalles extra a tu código y presentar proyecto impactantes con simple CSS.
+
 
 </details>
 
-<br/>
 
-## Desplegando nuestros cambios
 
-Esto probablemente ya lo has venido haciendo muchas veces, pero no está demás recordarlo.
-
-Agrega tus cambios realizados a git:
-
-```bash
-$ git add .
-```
-
-Agrega un mensaje descriptivo a tu nueva versión:
-
-```bash
-$ git commit -m "Agrega plantilla de correo de bienvenida"
-```
-
-Sube tus cambios a Github para que tengas un respaldo y siempre lo puedas descargar en cualquier otro ordenador:
-
-```bash
-$ git push origin <nombre-rama> # `master` si no estás trabajando en otra rama
-```
-
-Al realizar este último comando tus cambios estarán reflejados en Netlify y podrás revisar tu web publicada en internet. No te esperes más e ingresa tu correo y mira lo cool que se ve en tu bandeja, tanto desde móvil como desde desktop:
-
-![](../assets/1.png)
-![](../assets/2.jpeg)
 
 <br/>
 
-[Regresar](../)
+[Siguiente](../postwork-02/README.md)

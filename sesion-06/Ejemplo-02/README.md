@@ -1,117 +1,105 @@
-# Ej. 02 - Agregando el navbar
+# Ej. 02 - Agregando un carrusel
 
-Comencemos por comentar la barra de navegación que actualmente tenemos para
-evitar que se mezcle con la barra de navegación de Bootstrap.
+Vamos a insertar un carrousel en nuestra sección de historias de éxito, y crearemos unas nuevas tarjetas dentro del carrusel. También ajustaremos algunas clases con Bootstrap para mejorar la respuesta en pantallas pequeñas.
+
+Primero, observa cómo la documentación nos indica qué cosas componen nuestro [carrusel](https://getbootstrap.com/docs/5.1/components/carousel/). El tipo de carrusel que insertaremos en el proyecto es el denominado "[with indicators](https://getbootstrap.com/docs/5.1/components/carousel/#with-indicators)".
+
+Primer paso: vamos a comentar el código previo. Este es el que habías propuesto para una de las tarjetas de historias de éxito.
 
 ```html
-<body>
-  <!-- Esto es lo que se verá en el navegador web -->
-  <!-- <section class="fixed-header">
-    <header class="header">
-      <a href="/" class="logo">
+<article class="stories-carousel">
+  <!-- <div class="card">
+    <div class="card-media">
+      <figure>
         <img
-          src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
-          alt="Matcha"
+          src="https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png"
+          alt="Everly worker"
         />
-      </a>
-      <nav class="navbar">
-        <ul class="menu">
-          <li class="menu-item">Platform</li>
-          <li class="menu-item">Pricing</li>
-          <li class="menu-item">Customers</li>
-          <li class="menu-item">Resources</li>
-          <li class="menu-item">About</li>
-        </ul>
-      </nav>
-      <div class="actions">
-        <a>Sign In</a>
-        <button>Start free trial</button>
+      </figure>
+      <div class="company">
+        <img
+          src="https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png"
+          alt="Everly"
+        />
       </div>
-    </header>
-  </section> -->
-</body>
+    </div>
+    <div class="card-body">
+      <h4>Everly</h4>
+      <h3>
+        Early-Stage CPG Brand Increases Lead Conversion 20x, Ecommerce
+        Revenue 20%
+      </h3>
+      <div class="results">
+        <img
+          src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png"
+          alt="Cart icon"
+        />
+        <p>22% of monthly revenue influenced by content</p>
+      </div>
+    </div>
+    <div class="card-footer">
+      <button>See Case Study</button>
+    </div>
+  </div> -->
+</article>
 ```
-
-De tal forma podemos agregar la [barra de navegación de ejemplo](https://getbootstrap.com/docs/4.4/components/navbar/#supported-content)
-que nos da Bootstrap y adaptarla a lo que nosotros necesitamos:
+Segundo: agrega el código del carrusel que copiaste de la documentación de Bootstrap, dentro de la etiqueta `<article>`, y en este punto agregaremos unas clases de Bootstrap a la sección, lo que nos permitirá mejorar la interacción en pantallas pequeñas.
 
 ```html
-<body>
-  <!-- Nuestra barra de navegación comentada va aquí -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<section class="card-container">
+    <div class="container">
+      <div class="row p-2">
+        <!-- Agrega estas clases de Bootstrap -->
+        <article class="col-12 col-md-8 comments">
+          <!-- Este es el contenido de texto de esta sección-->
+        </article>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"
-            >Home <span class="sr-only">(current)</span></a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+        <!-- Agrega estas clases de Bootstrap -->
+        <article class="col-12 col-md-4 success-stories">
+          <!-- Aqui insertamos el carrusel -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-            >Disabled</a
-          >
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form>
+        </article>
+      </div>
     </div>
-  </nav>
-</body>
+  </section>
 ```
 
-Debería verse algo similar a:
+Buscando entender el contenido del HTML de Bootstrap para este carrusel, podemos comentar algunas cosas sobre este código:
 
-![Barra de navegación de ejemplo de Bootstrap agregada](../assets/bootstrap-default-navbar.png)
+**1.** Tres elementos `<button>` dentro del `<div class="carousel-indicators">`. Estos son los
+indicadores (líneas) que nos muestran en qué sección estamos por el momento y cuántas secciones hay dentro del carrusel.
 
-¡Vamos a adaptarla a lo que necesitamos!
+**2.** Encontramos `<div class="carousel-inner">` que contiene 3 divs con clase `carousel-item`. Estos `<div>` contienen cada uno de los elementos que queremos mostrar en nuestra página (en este caso las
+etiquetas `<img />`). Por esa razón, este es el lugar perfecto donde insertaremos las tarjetas.
+
+**3.** Dos `<button>` que representan las flechas que
+se sobreponen sobre los elementos del carousel para controlar manualmente si
+queremos avanzar o retroceder en el carousel. Estos no los vamos a usar, así que puedes eliminarlos del código.
 
 <br/>
 

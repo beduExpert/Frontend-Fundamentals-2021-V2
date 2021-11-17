@@ -1,8 +1,7 @@
 # Ej. 01 - Inspeccionando tu sitio desde un móvil
 
 Para poder adaptar nuestra página a un móvil por ejemplo, necesitamos saber cómo
-se ve actualmente, y si bien podríamos agarrar nuestro celular y entrar a la
-página que tenemos hospedada en Github pages, no nos ayudaría mucho porque queremos
+se ve actualmente, y si bien podríamos tomar nuestro celular y entrar nuestra página en Netlify, no nos ayudaría mucho porque queremos
 realizar cambios y ver inmediatamente cómo resulta dicho cambio, como lo hemos
 venido haciendo para desarrollar nuestra página en el navegador.
 

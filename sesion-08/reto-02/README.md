@@ -1,4 +1,4 @@
-# Reto 02 - Agregando segunda y tercera fila de características de Matcha
+# Reto 02 - Agregando otra transición a la actual
 
 ## REQUISITOS
 - Tener Git Bash si usas Windows.
@@ -6,8 +6,7 @@
 
 ## INSTRUCCIONES
 
-Genial, ahora que ya hemos visto como distribuir en 2 columnas las
-características principales de Matcha, agrega la segunda fila para terminar esta sección.
+¡Genial! Ahora que ya hemos visto como modificar el color del texto, el reto consiste en que cambies la transición para que ahora logres hacer un cambio de color y un cambio de tamaño del texto, para que resalte todavía más nuestro elemento. Ambas transiciones deben tener un timing diferente. Investiga en Google o en [w3schools](https://www.w3schools.com/css/css3_transitions.asp) por si necesitas algunos tips.
 
 <br/>
 
@@ -16,104 +15,30 @@ características principales de Matcha, agrega la segunda fila para terminar est
 
   <br/>
 
-En este caso tenemos que agregar 2 celdas a la segunda fila y ponerle los mismos
-estilos a las imágenes y las celdas para que queden distribuidas tal cual las
-primeras:
+La solución consiste en agregar a la propiedad `transition` la propiedad que necesitamos modificar. 
 
-```html
-<table
-  style="width: 100%; max-width: 600px; text-align: center; background-color: #fffbf7; color: #025157;"
->
-  <tr>
-    <!-- Aquí está el logo de Matcha -->
-  </tr>
-  <tr>
-    <!-- Aquí está la imagen descriptiva de Matcha -->
-  </tr>
-  <tr>
-    <!-- Aquí está el texto de bienvenida a Matcha -->
-    <td>
-      <main class="container">
-        <header class="header">
-          <h1>Hi, there</h1>
-          <p style="font-size: 18px; padding: 0px 20px 0px 20px; color: #000000;">
-            Thanks for cheking out Marcha, Instantly publish articles, drive more traffic, grow
-            your email list, and see your blog's impact on sales.
-          </p>
-          <a href="https://getmatcha.com/">
-            <button style="
-            background-color: #025157;
-            padding: 15px;
-            font-weight: 600;
-            margin-bottom: 20px;
-            color: #ffffff;">EXPLORE MATCHA</button>
-            </button>
-      </main>
-    </td>
-  </tr>
-  <tr>
-    <!-- Aquí irá las características que Matcha provee -->
-    <td
-      style="
-        border-top: 1px solid #999999d1;
-        border-bottom: 1px solid #999999d1;
-        padding-top: 35px;
-        padding-bottom: 35px;
-      "
-    >
-      <table
-        style="
-          text-align: center;
-          width: 100%;
-          color: #025157;
-          font-family: Arial, Helvetica, sans-serif;
-        "
-      >
-        <tr>
-          <td style="width: 50%">
-            <img
-              style="height: 300px;"
-              src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-publish.png"
-              alt="Publish"
-            />
-            <h2>Publish</h2>
-          </td>
-          <td style="width: 50%">
-            <img
-              style="height: 300px;"
-              src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png"
-              alt="Promote"
-            />
-            <h2>Promote</h2>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img
-              style="height: 300px;"
-              src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png"
-              alt="Capture"
-            />
-            <h2>Capture</h2>
-          </td>
-          <td>
-            <img
-              style="height: 300px;"
-              src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png"
-              alt="Measure"
-            />
-            <h2>Measure</h2>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <!-- Aquí irá el pie de página con enlaces a redes sociales -->
-  </tr>
-</table>
+Vamos a agregar esas propiedades extra en nuestro código:
+
+```css
+  .feature__title {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 35px;
+    text-decoration: none;
+    text-shadow: #025157 1px 1px 2px;
+    transition: color .3s ease-in-out;
+
+    &:hover {
+      color:#67b54b;
+    }
+  }
 ```
 
+::Pro-tip ¿Puedes agregar más transiciones en una sola línea? Intenta hacerlo con más propiedades en la línea de `transition`, pero puedes usar `transition: all ...` si el intervalo de tiempo es el mismo para todas las transiciones.
+
+<br/>
 </details>
 
 <br/>
