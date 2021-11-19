@@ -17,9 +17,9 @@ intimides y pregúntale a San Google (se volverá en uno de tus mejores amigos).
 <p>
 
 ```html
-<p>
-    <b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Proin laoreet sem in elit lobortis consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-</p>
+    <h1>Construye tu Blog. Construye tu negocio.</h1>
+    <p><strong>Instantly publish articles</strong>, drive more traffic, grow your email list, and see your blog's
+      impact on sales</p>
 ```
 
 </p>
@@ -27,5 +27,5 @@ intimides y pregúntale a San Google (se volverá en uno de tus mejores amigos).
 
 <br/>
 
-[Siguiente](../Ejemplo%2004)
+[Siguiente](../Ejemplo%2004/README.md)
 

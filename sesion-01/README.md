@@ -26,28 +26,28 @@ En esta sesión aprenderás:
 
 ## Organización de la clase
 
-- [Ejemplo 01: Creación de estructura de proyecto / Conectar con Github ( 20 minutos ) ](./Ejemplo%2001)
+- [Ejemplo 01: Creación de estructura de proyecto / Conectar con Github ( 20 minutos ) ](./Ejemplo%2001/README.md)
 
-- [Ejemplo  02: Creando nuestro HTML ( 10 minutos ) ](./Ejemplo%2002)
+- [Ejemplo  02: Creando nuestro HTML ( 10 minutos ) ](./Ejemplo%2002/README.md)
 
-- [Ejemplo  03: Agregando el home de Matcha ( 5 minutos ) ](./Ejemplo%2003)
+- [Ejemplo  03: Agregando el home de Matcha ( 5 minutos ) ](./Ejemplo%2003/README.md)
  
-- [Reto  01: Peso jerárquico ( 10 minutos ) ](./reto-01)
+- [Reto  01: Peso jerárquico ( 10 minutos ) ](./reto-01/README.md)
 
-- [Reto  02: Texto promocional ( 8 minutos ) ](./reto-02)
+- [Reto  02: Texto promocional ( 8 minutos ) ](./reto-02/README.md)
 
-- [Ejemplo  04: Agregando un formulario ( 8 minutos ) ](./Ejemplo%2004)
+- [Ejemplo  04: Agregando un formulario ( 8 minutos ) ](./Ejemplo%2004/README.md)
 
-- [Reto  03: Creando mi formulario ( 10 minutos ) ](./reto-03)
+- [Reto  03: Creando mi formulario ( 10 minutos ) ](./reto-03/README.md)
 
-- [Reto  04: Agregando imagen ( 8 minutos ) ](./reto-04)
+- [Reto  04: Agregando imagen ( 8 minutos ) ](./reto-04/README.md)
 
-- [Ejemplo  05: Agregando color al texto principal ( 8 minutos ) ](./Ejemplo%2005)
+- [Ejemplo  05: Agregando color al texto principal ( 8 minutos ) ](./Ejemplo%2005/README.md)
 
-- [Reto  05: Cambia los colores ( 10 minutos ) ](./reto-05)
+- [Reto  05: Cambia los colores ( 10 minutos ) ](./reto-05/README.md)
 
-- [Ejemplo  06: Subiendo el proyecto a Github Pages ( 10 minutos ) ](./Ejemplo%2006)
+- [Ejemplo  06: Subiendo el proyecto a Github Pages ( 10 minutos ) ](./Ejemplo%2006/README.md)
 
-- [Reto  06: Sube una nueva versión a Github ( 10 minutos ) ](./reto-06)
+- [Reto  06: Sube una nueva versión a Github ( 10 minutos ) ](./reto-06/README.md)
 
 

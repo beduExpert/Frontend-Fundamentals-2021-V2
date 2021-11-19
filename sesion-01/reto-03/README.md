@@ -1,11 +1,11 @@
 # Reto 03 - Creando mi formulario
 
-1. Utiliza los elementos que vimos para crear un formulario donde pueda poner: Nombre, Apellido, Edad, Email y Contraseña.
+1. Utiliza los elementos que vimos para crear un formulario donde pueda poner: Nombre, Apellido, Edad, Email y Contraseña. Este formulario será temporal, solo para ayudarnos a ejercitar cómo incluir elementos en nuestro formulario.
 
 <br/>
 
 > TIP: No dudes en googlear o preguntar a tus compañeros como puedes ocultar
-> los caracteres cuando sea contraseña, la edad solo acepte números.
+> los caracteres cuando sea contraseña, y como lograr que el campo de edad solo acepte números.
 
 <br/>
 
@@ -29,4 +29,4 @@
 
 <br/>
 
-[Siguiente](../reto-04)
+[Siguiente](../reto-04/README.md)

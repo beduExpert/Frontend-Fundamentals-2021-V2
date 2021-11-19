@@ -8,8 +8,7 @@ Los colores que van a aplicar son los siguientes:
 
 <br/>
 
-Ahora te toca buscar, ¿qué propiedad usarías para cambiar el color de fondo?
-¿Qué selector usarías para cambiar el color de fondo de toda la página?
+Ahora te toca buscar en Google, ¿cómo puedes agregar una hoja de estilos a tu proyecto? ¿Qué propiedad usarías para cambiar el color de fondo? ¿Qué selector usarías para cambiar el color de fondo de toda la página?
 
 - Color de fondo de la página: `#fffbf7`
 - Color de fondo del botón: `#025157`
@@ -19,11 +18,11 @@ Ahora te toca buscar, ¿qué propiedad usarías para cambiar el color de fondo?
 <details><summary>Posible solución</summary>
 <p>
 
-```html
-<head>
-    <title>Matcha</title>
-    <!-- Desde el mismo html -->
-    <style>
+Debes crear un archivo denominado `styles.css`, en la misma carpeta donde encuentras `index.html`. Recuerda usar `touch` para crear este archivo.
+
+Al abrir el archivo con VSCode, observarás que está vacío. Vamos a llenarlo con algunas cosas, según los cambios de color y alineación del texto que necesitas:
+
+```css
         body {
             background-color: #fffbf7;
         }
@@ -43,15 +42,24 @@ Ahora te toca buscar, ¿qué propiedad usarías para cambiar el color de fondo?
             color: #fff;
             background-color: #025157;
         }
-    </style>
-    <!-- Desde archivo externo -->
-    <link rel="stylesheet" href="styles.css">
-</head>
 ```
+Ahora, debemos referenciar la hoja de estilos que está en `styles.css` en nuestro index.html, para que los estilos se apliquen. También debemos borrar la etiqueta `<style>` y su contenido, por lo que el contenido de `<head>` quedará así:
+
+```html
+    <head>
+        <title>Matcha</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- aqui va el contenido html -->
+    </body>
+```
+
+¡Listo! Ahora has cambiado con éxito los colores de varios elementos en tu página web.
 
 </p>
 </details>
 
 <br/>
 
-[Siguiente](../Ejemplo%2006)
+[Siguiente](../Ejemplo%2006/README.md)

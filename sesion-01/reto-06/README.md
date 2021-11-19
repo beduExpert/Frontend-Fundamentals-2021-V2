@@ -97,7 +97,7 @@ git reset –hard origin/master
 <p>
 
 ```bash
-CD -> Navegar entre directorios "Carpetas" 
+CD -> Navegar entre directorios "Carpetas"
     Ejemplos:
     - Entrar a un directorio
         - CD + nombre de la carpeta
@@ -143,7 +143,7 @@ MD -> Crear directorio
 <p>
 
 ```bash
-CD -> Navegar entre directorios "Carpetas" 
+CD -> Navegar entre directorios "Carpetas"
     Ejemplos:
     - Entrar a un directorio
         - CD + nombre de la carpeta
@@ -185,4 +185,4 @@ MKDIR -> Crear directorio
 
 <br/>
 
-[Regresar](../)
+[Regresar](../README.md)
