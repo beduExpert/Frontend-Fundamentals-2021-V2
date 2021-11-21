@@ -1,5 +1,18 @@
 # Ej. 04 - Manejando el responsive de la sección de publicidad
 
+## Introducción
+El layout de los elementos, la manera en que los acomodamos dentro de la pantalla, debe ajustarse para las dimensiones de pantalla que podrían presentar nuestro contenido. Esto lo logramos con media-queries, pero aprenderemos cómo modificar la distribución de contenido usando flexbox.
+
+## Objetivos
+1. Aprender a utilizar flexbox para acomodar adecuadamente los elementos en diferentes resoluciones de pantalla.
+2. Aplicar los media queries de manera correcta.
+
+## Requisitos
+- Tener instalado Visual Studio Code
+- Tener conocimientos de CSS Flexbox
+
+## Desarrollo
+
 Si hacemos un poco de scroll hacia la parte inferior de la página, nos daremos
 cuenta que las siguientes secciones están desbordadas y no se ven bien ya que
 incluso generan un scroll horizontal (debido al desborde en mención). Iremos
@@ -134,4 +147,4 @@ Por último, nos falta editar el formulario de registro.
 
 <br/>
 
-[Siguiente](../reto-04)
+[Siguiente](../reto-04/README.md)

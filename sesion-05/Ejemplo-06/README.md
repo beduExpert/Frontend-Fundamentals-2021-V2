@@ -1,4 +1,16 @@
-# Configurando Bootstrap al proyecto
+# Ej. 06 - Configurando Bootstrap al proyecto
+
+## Introducción
+Ahora que ya hemos manejado los elementos de CSS que nos ayudan a obtener un diseño responsive, ahora instalaremos en nuestro proyecto el CSS framework que se llama Bootstrap, uno de los más sencillos de aprender y aplicar a nuestros proyectos.
+
+## Objetivo
+1. Instalar y configurar Bootstrap en nuestro proyecto
+2. Agregar el código necesiario en nuestro proyecto para usar los elementos de CSS de Bootstrap.
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+
+## Desarrollo
 
 Para usar un framework, es necesario agregarlo a nuestro proyecto. En el caso de Bootstrap, podemos descargarlo y configurarlo dentro de nuestro proyecto, aunque recientemente los desarrolladores de Bootstrap ofrecen la modalidad de importar los estilos desde la nube a través de CDN's. (Aquí encuentras una explicación de lo que es un [CDN](https://developer.mozilla.org/es/docs/Glossary/CDN)).
 
@@ -31,4 +43,4 @@ Para nuestro proyecto actual, pondremos primero el `<link />` de Bootstrap segui
 </head>
 ```
 
-[Siguiente](../Ejemplo-07)
+[Siguiente](../Ejemplo-07/README.md)

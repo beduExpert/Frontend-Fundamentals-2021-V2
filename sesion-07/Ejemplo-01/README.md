@@ -1,5 +1,15 @@
 # Ej. 01 - Empezando a estructurar Sass
 
+## Objetivo
+1. Establecer la estructura de SASS para nuestro proyecto, siguiendo mejores prácticas.
+2. Configurar el compilador de SASS para obtener nuestra hoja de estilos.
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+- Tener instalado SASS versión dart.
+
+
+## Desarrollo
 Sass nos permite detectar dos tipos de archivos, los que tienen extensión `.scss`
 ó `.sass`. El primero tiene dicha extensión porque su sintaxis base es muy
 similar a la de CSS, mientras que el segundo es una sintaxis particular (por
@@ -77,4 +87,4 @@ es la ventaja de usarlo? Es lo que vamos a descubrir en el siguiente apartado.
 
 <br/>
 
-[Siguiente](../Ejemplo-02)
+[Siguiente](../Ejemplo-02/README.md)

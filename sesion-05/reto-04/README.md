@@ -1,16 +1,17 @@
 # Reto 04 - Mejorando la experiencia móvil de las tarjetas de características
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener conocimientos básicos de CSS (Flexbox)
-- Tener conocimientos básicos de CSS (Gid)
+## Objetivos
+1. Utilizar media queries para ajustar el contenido que utilice CSS Grid a las dimensiones requeridas.
+## Requisitos
+- Tener instalado Visual Studio Code
+- Tener conocimientos de CSS Grid
 
 <br/>
 
-## INSTRUCCIONES
+## Instrucciones
 
 Hasta este punto tenemos las características alineadas correctamente, sin embargo,
-todavía no dan una buena apariencia, debido al ancho que ocupan en la pantalla 
+todavía no dan una buena apariencia, debido al ancho que ocupan en la pantalla
 se ve reducido y también porque la imagen no da una buena experiencia en este
 tamaño de pantalla. ¿Cómo la mejoramos?
 
@@ -37,4 +38,4 @@ tamaño de pantalla. ¿Cómo la mejoramos?
 
 <br/>
 
-[Siguiente](../Ejemplo-06)
+[Siguiente](../Ejemplo-06/README.md)

@@ -1,5 +1,15 @@
 # Ej. 03 - Agregando una nueva página
 
+## Objetivos
+1. Crear otra página con contenido dentro del proyecto.
+2. Enlazar esta nueva página con la primera para que se pueda navegar entre ellas.
+3. Utilizar más componentes de Bootstrap.
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+
+## Instrucciones
+
 Hasta este momento, solo tenemos una página: `index.html`. Este es el archivo que el navegador buscará cuando entre a nuestra aplicación web, pero necesitamos más elementos para que  nuestro proyecto sea más funcional. Vamos a crear un nuevo archivo en el que agregaremos código y utilizaremos algunos estilos que ya hemos aplicado en `index.html`.
 
 Empecemos por crear un nuevo archivo para el HTML y otro para sus estilos en la
@@ -183,4 +193,4 @@ Estos son los estilos de nuestra navbar:
 Con estos estilos y estructura extraídas de nuestro `index.html` obtenemos la
 misma barra de navegación, pero ahora en `pricing.html`.
 
-[Siguiente](../reto-04)
+[Siguiente](../reto-04/README.md)

@@ -1,6 +1,8 @@
 # Reto 01 - Cambiando la fuente de nuestro título principal
 
-## REQUISITOS
+## Objetivos
+1. Adaptar contenido de texto a una pantalla más pequeña.
+## Requisitos
 - Tener Git Bash si usas Windows.
 - Tener conocimientos básicos de CSS (Flexbox)
 - Tener conocimientos básicos de CSS (Grid)
@@ -39,4 +41,4 @@ guía. ¿Cómo harías para cambiarle de fuente a una que funcione mejor?
 
 <br/>
 
-[Siguiente](../reto-02)
+[Siguiente](../reto-02/README.md)

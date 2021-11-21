@@ -1,14 +1,25 @@
 # Ej. 02 - Transiciones y pseudo-elementos
 
+## Introducción
 Las transiciones se utiliza cuando queremos resaltar un elemento. Podríamos hacerlo de manera directa con el evento *:hover*, pero es provoca que el efecto se vea brusco o "duro", mientras que una transición te permite implementar la velocidad de cambio que necesites. Ahora, vamos a insertar nuestra primera transición. Esta la haremos dentro de un elemento de texto, para que veamos cómo funcionan.
 
-## Estados de la transición
+### Estados de la transición
 
 El primer estado de la transición que vamos a fijar es el estado "base", es decir, el que tiene el elemento al momento de que es mostrado en pantalla por el navegador.
 
 El segundo estado que utilizaremos es cuando el puntero del ratón pasa por encima del elemento de texto, lo que desencadena un evento en la página que se denomina **hover**. CSS está preparado para detectar este evento, utilizando el selector **:hover** que se aplica a la clase o elemento donde se definen las propiedades base.
 
-## Inyectemos la transición
+---
+<br/>
+
+## Objetivos
+1. Utilizar transiciones en los elementos `<button>` de la nueva página.
+2. Aprender el uso del pseudo selector `:hover`.
+
+---
+<br/>
+
+## Desarrollo
 
 Seleccionamos el elemento de texto justo por debajo de las fotografías. Como todos tienen la misma clase, con que hagamos el cambio una sola vez en el código nos permitirá cambiar también los otros dos textos.
 
@@ -64,4 +75,4 @@ Cuando hacemos *hover* con el ratón y se observa que cambia el color del texto 
 
 <br/>
 
-[Siguiente](../reto-02)
+[Siguiente](../reto-02/README.md)

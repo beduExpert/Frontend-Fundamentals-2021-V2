@@ -4,6 +4,9 @@
 
 - Conocer qué más podemos hacer luego de este curso
 
+---
+<br/>
+
 ## Recursos
 
 Esta fue la ultima sesión del curso, y tal vez te has quedado con muchas dudas

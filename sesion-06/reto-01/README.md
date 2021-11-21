@@ -1,10 +1,12 @@
 # Reto 01 - Fijando la barra de navegación a la parte superior de la pantalla
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
+## Objetivos
+1. Agregar posicionamiento estático a la barra de navegación.
+## Requisitos
+- Tener instalado Visual Studio Code
 - Saber que es responsive design
 
-## INSTRUCCIONES
+## Instrucciones
 
 Recuerdas que la barra de navegación tenía un posicionamiento fijo en la parte superior aún y cuando estemos haciendo scroll. ¿Has notado que este comportamiento ya no está presente? ¿Puedes solucionarlo?
 
@@ -44,4 +46,4 @@ a la clase `.navbar` que tenemos declarada en nuestros estilos:
 
 <br/>
 
-[Siguiente](../Ejemplo-02)
+[Siguiente](../Ejemplo-02/README.md)

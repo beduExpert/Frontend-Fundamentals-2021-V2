@@ -1,10 +1,20 @@
 # Reto 02 - Agregando otra transición a la actual
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener una cuenta de Netifly
+## Objetivos
+1. Agregar una transición adicional a la vigente
+2. Aprender la secuencia de propiedades que permite tener más de una transición en un elemento.
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Requisitos
+- Tener Visual Studio Code instalado
+
+---
+<br/>
+
+## Instrucciones
+
 
 ¡Genial! Ahora que ya hemos visto como modificar el color del texto, el reto consiste en que cambies la transición para que ahora logres hacer un cambio de color y un cambio de tamaño del texto, para que resalte todavía más nuestro elemento. Ambas transiciones deben tener un timing diferente. Investiga en Google o en [w3schools](https://www.w3schools.com/css/css3_transitions.asp) por si necesitas algunos tips.
 
@@ -15,7 +25,7 @@
 
   <br/>
 
-La solución consiste en agregar a la propiedad `transition` la propiedad que necesitamos modificar. 
+La solución consiste en agregar a la propiedad `transition` la propiedad que necesitamos modificar.
 
 Vamos a agregar esas propiedades extra en nuestro código:
 
@@ -43,4 +53,4 @@ Vamos a agregar esas propiedades extra en nuestro código:
 
 <br/>
 
-[Siguiente](../reto-03)
+[Siguiente](../reto-03/README.md)

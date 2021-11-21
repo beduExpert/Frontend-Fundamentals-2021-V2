@@ -1,5 +1,16 @@
 # Ej. 03 - Ajustando el ancho del banner Capterra
 
+## Introducción
+Acomodar los elementos en distintos anchos de pantalla incluye no solo el acomodo sino también las dimensiones que deben tomar cada elemento de texto y/o imagen en nuestro contenido,
+## Objetivos
+
+1. Ajustar la presentación de imágenes mediante el uso de media-queries.
+## Requisitos
+
+- Tener instalado Visual Studio Code.
+
+## Desarrollo
+
 Si bien nuestra página principal ya va tomando una mejor apariencia, la imagen
 con el texto _Capterra_ y las estrellas se desbordan del ancho del dispositivo,
 esto normalmente es debido a que el ancho de la imagen supera el ancho
@@ -42,4 +53,4 @@ pequeños debería verse así:
 
 <br/>
 
-[Siguiente](../reto-03)
+[Siguiente](../reto-03/README.md)

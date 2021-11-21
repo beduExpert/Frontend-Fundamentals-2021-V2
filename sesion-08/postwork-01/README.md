@@ -1,10 +1,16 @@
 # Postwork 01 - Subiendo el proyecto a Netlify
 
-## REQUISITOS
+## Objetivos
+1. 
+
+---
+<br/>
+
+## Requisitos
 - Tener cuenta en Netlify
 - Tener un editor de código instalado
 
-## INSTRUCCIONES
+## Instrucciones
 
 Lo primero que debemos hacer, es registrarnos en el sitio de [Netlify](https://www.netlify.com/).
 Te recomendamos que utilices tu cuenta de GitHub como registro ya que en caso de
@@ -53,4 +59,4 @@ tu primera sesión!
 
 <br/>
 
-[Siguiente](../postwork-02)
+[Siguiente](../postwork-02/README.md)

@@ -1,11 +1,13 @@
 # Reto 02 - Agrega la tercera columna
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener Node instalado
-- Tener SASS instalado
+## Objetivos
+1. Reutilizar los estilos aplicados en la colummna anterior.
+2. Utilizando la consola de desarrollador del navegador, obtener infromación útil para agregar al proyecto.
 
-## INSTRUCCIONES
+## Requisitos
+- Tener Visual Studio Code instalado.
+
+## Instrucciones
 
 Hasta el momento vimos como insertar la primera columna, ahora solo nos falta
 agregar la última columna. En general, debido a que estamos usando clases de
@@ -101,4 +103,4 @@ Al realizar este último comando tus cambios estarán reflejados en Netlify y po
 
 <br/>
 
-[Regresar](../)
+[Regresar](../README.md)

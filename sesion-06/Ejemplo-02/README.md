@@ -1,5 +1,12 @@
 # Ej. 02 - Agregando un carrusel
 
+## Objetivo
+1. Configurar en nuestro proyecto uno de los elementos más populares de esta librería: el carrusel.
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+
+## Desarrollo
 Vamos a insertar un carrousel en nuestra sección de historias de éxito, y crearemos unas nuevas tarjetas dentro del carrusel. También ajustaremos algunas clases con Bootstrap para mejorar la respuesta en pantallas pequeñas.
 
 Primero, observa cómo la documentación nos indica qué cosas componen nuestro [carrusel](https://getbootstrap.com/docs/5.1/components/carousel/). El tipo de carrusel que insertaremos en el proyecto es el denominado "[with indicators](https://getbootstrap.com/docs/5.1/components/carousel/#with-indicators)".
@@ -103,4 +110,4 @@ queremos avanzar o retroceder en el carousel. Estos no los vamos a usar, así qu
 
 <br/>
 
-[Siguiente](../reto-02)
+[Siguiente](../reto-02/README.md)

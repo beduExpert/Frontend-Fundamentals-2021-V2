@@ -1,5 +1,13 @@
 # Ej. 04 - Agregando otro componente de Bootstrap
 
+## Objetivos
+1. Agregar el componente "button group" (botonera) de Bootstrap.
+2. Usar imágenes para personalizar botones en HTML/CSS.
+
+## Requisitos
+- Tener Visual Studio Code.
+
+## Instrucciones
 Vamos a agregar la botonera de Bootstrap, y la modificaremos como lo requiramos. Entra a [Bootstrap](https://getbootstrap.com/docs/5.1/components/button-group/#basic-example) y copia la botonera básica, que vamos a insertar en un nuevo contenedor al interior de `<main>`.
 
 ```html
@@ -83,4 +91,4 @@ Ahora , lo único que debes hacer es utilizar la etiqueta `<img>` y agregar en l
 
 <br/>
 
-[Siguiente](../Ejemplo-05)
+[Siguiente](../Ejemplo-05/README.md)

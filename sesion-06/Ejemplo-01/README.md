@@ -1,5 +1,17 @@
 # Ej. 01 - Agregando javascript al proyecto
 
+## Introducción
+
+El framework de Bootstrap también utiliza un lenguaje de programación para lograr que algunos de sus elementos puedan funcionar correctamente. Este paso dentro de tu proyecto es importante para que la funcionalidad que necesitas se encuentre presente siempre.
+## Objetivos
+1. Insertar los scripts de Javascript que utiliza Bootstrap.
+
+## Requisitos
+
+1. Tener instalado Visual Studio Code.
+
+## Desarrollo
+
 En la sección de inicio de la documentación de Bootstrap, nosotros encontramos
 los links para el código fuente del CSS de este framework y los agregamos a
 nuestro HTML. Lo mismo sucede con JavaScript. En esta ocasión, nosotros no

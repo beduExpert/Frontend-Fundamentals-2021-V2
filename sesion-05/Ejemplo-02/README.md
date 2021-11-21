@@ -1,5 +1,16 @@
 # Ej. 02 - Ocultando la barra de navegación en móviles
 
+## Introducción
+Debemos usar algunos "trucos" al momento de ajustar nuestro contenido a pantallas de distintos tamaños, ya que no todo el contenido se ajusta bien en una pantalla pequeña. Aprenderemos en esta sección como usar los media queries y otras técnicas.
+
+## Objetivos
+
+1. Aprender a utilizar media-queries en CSS.
+## Requisitos
+1. Tener instalado Visual Studio Code.
+
+## Desarrollo
+
 Lo primero que podemos notar es que nuestra barra de navegación se distorsiona
 y termina viéndose mal, debido a muchos factores, tal vez el más importante que
 es mucho contenido para el tamaño de nuestros dispositivos. ¿Qué tal si lo
@@ -120,4 +131,4 @@ como recuperar este contenido con una experiencia diferente.
 
 <br/>
 
-[Siguiente](../reto-01)
+[Siguiente](../reto-01/README.md)

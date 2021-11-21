@@ -1,5 +1,16 @@
 # Recuperando los estilos de la barra de navegación
 
+## Objetivos
+1. Aprender cómo modificar los componentes de Bootstrap en cuanto a estilos
+2. Aprender cómo instalar estilos propios en componentes de Bootstrap
+3. Aprender como utilizar los estilos provistos por Bootstrap
+
+## Requisitos
+- Tener Visual Studio Code instalado
+
+## Instrucciones
+
+
 La barra de navegación ya tiene nuestro contenido, pero en definitiva no es lo que necesitamos. ¿Podrías agregar o modificar los estilos y revisar qué tan bien se ve en pantallas medianas y grandes?
 
 <details>

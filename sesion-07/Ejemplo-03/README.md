@@ -1,5 +1,16 @@
 # Ej. 03 - Agregando segunda columna del blog
 
+## Objetivos
+1. Utilizar estilos y elementos de Bootstrap.
+2. Completar la sección Blog de nuestro proyecto.
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+- Conocer estilos de Bootstrap.
+- Conocer el patrón de diseño de Bootstrap para contenedores.
+
+## Desarrollo
+
 Para agregar la segunda columna que viene a ser un post del blog, usaremos un
 componente de Bootstrap llamado [card](https://getbootstrap.com/docs/4.4/components/card/).
 Al igual que en la sesión de frameworks, agarraremos el código de ejemplo como
@@ -79,4 +90,4 @@ personalizar su apariencia con cambios en Sass.
 
 <br/>
 
-[Siguiente](../reto-01)
+[Siguiente](../reto-01/README.md)
