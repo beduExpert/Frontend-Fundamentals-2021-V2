@@ -1,10 +1,18 @@
 # Ej. 04 - Agregando un formulario
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener un editor de código instalado
+## Objetivos
+1. Aprender a usar elementos interactivos de un formulario de HTML: `<input>`
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Requisitos
+- Tener Visual Studio Code instalado.
+
+---
+<br/>
+
+## Instrucciones
 
 Los formularios en HTML hacen uso de etiquetas particulares para denotar el tipo
 de _control_ (caja de texto, botones, etc) que se va a usar en el formulario.

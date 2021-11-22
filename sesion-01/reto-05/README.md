@@ -1,4 +1,9 @@
 ## Reto 05 - Cambia los colores
+## Objetivos
+1. Usar propiedades de CSS para dar estilo a varios componentes de texto.
+2. Aprender a usar CSS para centrar elementos en la página.
+
+## Desarrollo
 
 Los colores que van a aplicar son los siguientes:
 

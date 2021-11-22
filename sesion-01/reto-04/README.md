@@ -1,6 +1,10 @@
 ## Reto 04 - Agregando imagen
 
-1. Es tu turno de agregar la última parte de la estructura que tenemos pensado para esta sesión: la imagen. Esta la puedes obtener desde este [link](https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png). También puedes comentar el contenido del formulario de práctica que hicimos en la actividad anterior.
+## Objetivos
+1. Insertar imágenes en nuestro proyecto.
+## Desarrollo
+
+Es tu turno de agregar la última parte de la estructura que tenemos pensado para esta sesión: la imagen. Esta la puedes obtener desde este [link](https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png). También puedes comentar el contenido del formulario de práctica que hicimos en la actividad anterior.
 
 <br/>
 

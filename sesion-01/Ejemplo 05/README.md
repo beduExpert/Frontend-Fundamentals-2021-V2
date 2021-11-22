@@ -1,9 +1,18 @@
 # Ej. 05 - Agregando color al texto principal
 
-## REQUISITOS
-- Tener Visual Studio Code instalado
+## Objetivos
+1. Aprender a usar propiedades de CSS para definir estilos.
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Requisitos
+- Tener Visual Studio Code instalado.
+
+---
+<br/>
+
+## Instrucciones
 
 La primera propiedad que veremos en CSS será la de `color`, y la usaremos para cambiar
 el color de los textos que hemos agregado.

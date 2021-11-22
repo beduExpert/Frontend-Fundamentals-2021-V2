@@ -1,11 +1,21 @@
 # Ej. 02 - Creando nuestro HTML
 
-## REQUISITOS
+## Objetivos
+1. Aprender a usar el Visual Studio Code para editar archivos HTML/CSS.
+2. Configurar el encabezado de tu proyecto usando HTML.
+
+---
+<br/>
+
+## Requisitos
 
 - Tener Git Bash si usas Windows.
-- Tener un editor de código instalado
+- Tener Visual Studio Code instalado.
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Instrucciones
 
 Es momento de abrir nuestro editor de texto. Usaremos en este módulo Visual Studio Code (VSCode) y debes
 abrir con VSCode el directorio "matcha" que creamos en nuestra terminal. Recuerda la estructura:

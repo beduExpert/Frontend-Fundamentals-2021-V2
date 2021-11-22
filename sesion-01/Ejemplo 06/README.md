@@ -1,10 +1,15 @@
 # Ej. 06 - Subiendo el proyecto a Github Pages
+## Objetivos
+1. Aprender a desplegar tu proyecto en internet usando el servicio gratutito de GitHub Pages.
 
-## REQUISITOS
+---
+<br>
+
+## Requisitos
 - Tener cuenta en github
-- Tener un editor de código instalado
+- Tener Visual Studio Code instalado.
 
-## INSTRUCCIONES
+## Instrucciones
 
 Vamos a respaldar esta versión de nuestro código en la nube. Para ello usaremos el servicio de GitHub, donde podemos "subir" a la nube todas las versiones que hagamos de nuestro proyecto. Necesitamos seguir un proceso para subir nuestro código de la manera correcta.
 ### 1. Agregar archivos modificados a la sección de git denominada "Staging"

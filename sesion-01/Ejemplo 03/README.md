@@ -1,10 +1,19 @@
 # Ej. 03 - Agregando el home de Matcha
+## Objetivos
+1. Agregar el primer contenido a tu proyecto usando HTML.
+2. Aprender como usar las etiquetas de HTML.
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener un editor de código instalado
+---
+<br/>
 
-## INSTRUCCIONES
+## Requisitos
+- Tener Visual Studio Code instalado.
+- Conocer estructura básica de las etiquetas HTML.
+
+---
+<br/>
+
+## Instrucciones
 
 Siguiendo el diseño del sitio original de [`Matcha`](https://bedu-fef.netlify.app/),
 podemos ver que lo primero que aparece son textos de diferentes tamaños y

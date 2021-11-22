@@ -1,5 +1,6 @@
 # Reto 03 - Creando mi formulario
 
+## Objetivos
 1. Utiliza los elementos que vimos para crear un formulario donde pueda poner: Nombre, Apellido, Edad, Email y Contraseña. Este formulario será temporal, solo para ayudarnos a ejercitar cómo incluir elementos en nuestro formulario.
 
 <br/>

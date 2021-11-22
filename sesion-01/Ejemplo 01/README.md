@@ -1,10 +1,20 @@
 # Ej. 01 - Creación de estructura de proyecto
 
-## REQUISITOS
+## Objetivos
+1. Definir la estructura de archivos para tu nuevo proyecto web.
+2. Utilizar la terminal como la herramienta por excelencia del desarrollo.
+
+---
+<br/>
+
+## Requisitos
 - Tener Git Bash si usas Windows.
 - Tener una cuenta en GitHub.
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Instrucciones
 
 1. Abrir la terminal (tener en cuenta que la interfaz puede cambiar dependiendo
    del sistema operativo que tengas).
@@ -96,7 +106,8 @@
 
 7. Una vez comprobado que tu directorio se creó correctamente, accede a él
    (recuerda el comando `cd` para cambiar de ubicación y `pwd` para verificar).
-   Una vez dentro, el comando para iniciar un proyecto de git es `git init`
+
+   Una vez dentro, el comando para iniciar el versionado de tu proyecto mediante Git es `git init`.
 
    ```bash
    $ cd matcha # Change directory a "matcha"
