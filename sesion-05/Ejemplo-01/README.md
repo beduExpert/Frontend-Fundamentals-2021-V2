@@ -1,9 +1,16 @@
 # Ej. 01 - Inspeccionando tu sitio desde un móvil
 
+## Introducción
+Una de las maneras más útiles disponibles para observar el contenido de nuestro desarrollo en diversas pantallas, lo tenemos disponible en nuestro navegador. Hoy practicaremos como adaptar nuestro contenido con la vista responsive de la consola del desarrollador en el navegador.
+
+## Requisitos
+- Tener instalado Chrome o Firefox.
+- Tener instalado Visual Studio Code.
+
+## Desarrollo
+
 Para poder adaptar nuestra página a un móvil por ejemplo, necesitamos saber cómo
-se ve actualmente, y si bien podríamos tomar nuestro celular y entrar nuestra página en Netlify, no nos ayudaría mucho porque queremos
-realizar cambios y ver inmediatamente cómo resulta dicho cambio, como lo hemos
-venido haciendo para desarrollar nuestra página en el navegador.
+se ve actualmente, y si bien podríamos tomar nuestro celular y entrar nuestra página en Netlify, no nos ayudaría mucho porque queremos realizar cambios y ver inmediatamente cómo resulta dicho cambio, como lo hemos venido haciendo para desarrollar nuestra página en el navegador.
 
 Debido a que esto es algo común para los desarrolladores web, los navegadores
 han implementado un visualizador responsivo en sus herramientas de desarrollo
@@ -73,4 +80,4 @@ que la experiencia termina siendo muy mala. Ejemplo:
 
 <br/>
 
-[Siguiente](../Ejemplo-02)
+[Siguiente](../Ejemplo-02/README.md)

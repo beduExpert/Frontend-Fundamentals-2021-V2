@@ -1,4 +1,8 @@
 # Reto 06 - Sube una nueva versión a Github
+## Objetivo
+1. Aprender a usar GitHub para mantener tu código del proyecto en un repositorio remoto.
+
+## Instrucciones
 
 Agrega cambios de CSS a tu proyecto, puede ser el color o cualquier otra propiedad
 que te llamó la intención probar. Luego sigue los comandos de Git que acabas de
@@ -97,7 +101,7 @@ git reset –hard origin/master
 <p>
 
 ```bash
-CD -> Navegar entre directorios "Carpetas" 
+CD -> Navegar entre directorios "Carpetas"
     Ejemplos:
     - Entrar a un directorio
         - CD + nombre de la carpeta
@@ -143,7 +147,7 @@ MD -> Crear directorio
 <p>
 
 ```bash
-CD -> Navegar entre directorios "Carpetas" 
+CD -> Navegar entre directorios "Carpetas"
     Ejemplos:
     - Entrar a un directorio
         - CD + nombre de la carpeta
@@ -185,4 +189,4 @@ MKDIR -> Crear directorio
 
 <br/>
 
-[Regresar](../)
+[Regresar](../README.md)

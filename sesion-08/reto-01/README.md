@@ -1,8 +1,17 @@
 # Reto 01 - Agrega los elementos a la nueva página
 
+## Objetivos
+1. Aprender a maquetar una nueva página de nuestro proyecto
+2. Utilizar la consola de desarrollador para obtener información del proyecto
+
+---
+<br/>
+
 ## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener una cuenta de Netifly
+- Tener instalado Visual Studio Code
+
+---
+<br/>
 
 ## INSTRUCCIONES
 
@@ -204,8 +213,11 @@ body {
 
 ```
 
+<br/>
 
 Quinto, agreguemos nuestro contenido. Puedes observar en [la página de Matcha](https://getmatcha.com) los estilos aproximados que necesitamos. Puedes practicar también tu dominio de Bootstrap para agregar este contenido. Como ahora estás maquetando, tus conocimientos de Flexbox y CSS Grid serán de mucha utilidad, y los trucos que aprendiste en este módulo te ayudarán también.
+
+<br />
 
 ```html
 <section class="top-features">
@@ -270,6 +282,8 @@ Quinto, agreguemos nuestro contenido. Puedes observar en [la página de Matcha](
 
 Y en el archivo scss/aboutUs.scss:
 
+<br/>
+
 ```css
 /* Aqui van los estilos que copiamos de las otras páginas que funcionan */
 
@@ -313,14 +327,14 @@ Y en el archivo scss/aboutUs.scss:
 }
 
 ```
-
+<br/>
 Ahora, la página debe verse similar a:
 
 ![Página de About Us completa.](../assets/AboutUsCompleta.png)
 
-
+<br/>
 </details>
 
 <br/>
 
-[Siguiente](../Ejemplo-02)
+[Siguiente](../Ejemplo-02/README.md)

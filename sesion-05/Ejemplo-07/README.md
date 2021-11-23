@@ -1,4 +1,16 @@
-# Agregando una navbar al proyecto
+# Ej. 07 - Agregando una navbar al proyecto
+
+## Introducción
+Los elementos de Bootstrap (componentes) son muy sencillos de utilizar, y agilizan en mucho la construcción de una página web. Aprenderemos cómo utilizar uno de los componentes más utilizados por los desarrolladores.
+
+## Objetivo
+
+1. Utilizar Bootstrap para insertar un componente presideñado y reutilizable.
+
+## Requisitos
+- Tener instalado Visual Studio Code
+
+## Desarrollo
 
 Comencemos por comentar la barra de navegación que actualmente tenemos para
 evitar que se mezcle con la barra de navegación de Bootstrap.
@@ -83,4 +95,4 @@ Debería verse algo similar a:
 
 ¡Vamos a adaptarla a lo que necesitamos!
 
-[Siguiente](../reto-05)
+[Siguiente](../reto-05/README.md)

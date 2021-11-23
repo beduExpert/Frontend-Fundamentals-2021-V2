@@ -1,10 +1,13 @@
 # Recuperando el contenido de tu NavBar
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Conocer como instalar Bootstrap.
+## Objetivos
+1. Aprender cómo modificar los componentes de Bootstrap en cuanto a contenido
+2. Estructurar correctamente un componente para que se ajuste a nuestras necesidades
 
-## INSTRUCCIONES
+## Requisitos
+- Tener Visual Studio Code instalado
+
+## Instrucciones
 
 Cambia el texto usado en el navbar por defecto al contenido que actualmente
 tenemos en nuestra página.
@@ -66,4 +69,4 @@ Viéndose algo como:
 
 
 
-[Siguiente](../reto-06)
+[Siguiente](../reto-06/README.md)

@@ -1,7 +1,11 @@
 # Reto 03 - Agregar las dos tarjetas restantes
 
+## Objetivos
+1. Concluir la personalización del componente Carrusel
+2. Usar el componente Tarjeta para presentar información de casos de éxito del producto.
+
 ## REQUISITOS
-- Tener Git Bash si usas Windows.
+- Tener Visual Studio Code instalado
 
 ## INSTRUCCIONES
 
@@ -135,4 +139,4 @@ Y los estilos de CSS quedarían así, agregando las modificaciones de las dos ta
 
 <br/>
 
-[Siguiente](../Ejemplo-03)
+[Siguiente](../Ejemplo-03/README.md)

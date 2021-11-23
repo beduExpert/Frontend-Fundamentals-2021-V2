@@ -1,5 +1,15 @@
 # Ej. 02 - Agregando primera columna del blog
 
+## Objetivos
+1. Agregar otra hoja de estilos en el proyecto
+2. Definir variables en SASS/SCSS
+3. Establecer "placeholders" en SASS/SCSS
+4. Utilizar diferentes archivos de SCSS
+
+## Requisitos
+-Tener instalado Visual Studio Code.
+## Desarrollo
+
 De esta manera ya hemos indicado que la sección de blog va a utilizar tres
 columnas. Comencemos por agregar el contenido de la primera columna:
 
@@ -52,7 +62,7 @@ se tiene por defecto.
 > - [Ícono de build](https://cdn.iconscout.com/icon/free/png-256/build-20-454867.png)
 > - [Ícono de attract](https://catwatchful.com/main/wp-content/uploads/2014/09/rocket-icon.png)
 > - [Ícono de convert](https://icon-library.com/images/icon-convert/icon-convert-2.jpg)
-> 
+>
 > Estos íconos fueron guardados en una carpeta `icons` en la raíz del proyecto. Si utilizas otra ruta para guardar estos íconos asegúrate de cambiarle la ruta relativa.
 
 Como vemos en el resultado de esta estructura, toma ciertos estilos por defecto

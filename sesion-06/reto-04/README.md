@@ -1,11 +1,16 @@
 # Reto 04 - Agregando la sección principal y botones
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
+## Objetivos
+1. Insertar el contenido principal de nuestra nueva página al proyecto.
+
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+  
 
 <br/>
 
-## INSTRUCCIONES
+## Instrucciones
 
 Nuestra página habla un poco acerca del costo del servicio. Por ello, debemos crear nuestro código para que el resultado se vea así:
 
@@ -40,4 +45,4 @@ Podemos insertar un elemento con un contenedor, para tener la posibilidad de con
 
 <br/>
 
-[Siguiente](../Ejemplo-04)
+[Siguiente](../Ejemplo-04/README.md)

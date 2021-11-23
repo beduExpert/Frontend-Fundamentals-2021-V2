@@ -1,11 +1,12 @@
 # Reto 01 - Agrega colores usados en las tarjetas
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener Node instalado
-- Tener SASS instalado
+## Objetivos
+1. Agregar nuevas variables de color en SCSS
+2. Utilizar la consola de desarrollador del navegador para obtener información de los elementos de la página de Matcha.
+## Requisitos
+- Tener instalado Visual Studio Code.
 
-## INSTRUCCIONES
+## Instrucciones
 
 Dentro de las tarjetas de los posts, hay 3 colores distintos para los distintos
 textos que tenemos. Usa el devtools para encontrar esos colores y defínelos en
@@ -34,4 +35,4 @@ $light-green: #67b54b;
 
 <br/>
 
-[Siguiente](../reto-02)
+[Siguiente](../reto-02/README.md)

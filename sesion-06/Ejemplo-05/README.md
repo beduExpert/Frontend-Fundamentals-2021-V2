@@ -1,8 +1,12 @@
 # Ej. 05 - Agregando una sección de preguntas frecuentes
 
+## Objetivos
+1. Utilizar el patrón de diseño básico de Bootstrap
+2. Insertar y configurar un nuevo elemento de Bootstrap: Acordeón.
+
 Vamos a agregar una sección de preguntas frecuentes, pero lo haremos en dos columnas y con otro elemento de Bootstrap, el [Acordeón](https://getbootstrap.com/docs/5.1/components/accordion/#example).
 
-Primero, armemos los contenedores.
+Primero, armemos los contenedores, que este es el patrón de diseño básico de Bootstrap.
 
 ```html
   <section class="faq">
@@ -139,10 +143,10 @@ Como siempre, debemos considerar estilos para que el contenido se visualice corr
   }
 ```
 
-!Se nota que vamos avanzando!
+¡Se nota que vamos avanzando!
 
 
 
 <br/>
 
-[Siguiente](../reto-05)
+[Siguiente](../reto-05/README.md)

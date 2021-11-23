@@ -1,11 +1,14 @@
 # Reto 05 - Agregando la segunda columna de nuestras FAQ
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
+## Objetivos
+1. Agregar nuevos elementos de Bootstrap así como la personalización de los mismos.
+2. Utilizar los estilos de Bootstrap para acomodar elementos en la pantalla.
+## Requisitos
+- Tener Visual Studio Code instalado.
 
 <br/>
 
-## INSTRUCCIONES
+## Instrucciones
 
 ¡Ahora es tu turno! Agrega la segunda columna de FAQ's para que se vea como en esta imagen:
 
@@ -95,4 +98,4 @@ Insertemos en nuestro código el resto del contenido de las FAQ's en el acordeó
 Ahora nuestro proyecto está casi completo. ¡Nos vemos pronto!
 <br/>
 
-[Regresar](../)
+[Regresar](../README.md)

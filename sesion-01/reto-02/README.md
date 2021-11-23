@@ -1,10 +1,12 @@
 # Reto 02 - Texto promocional
 
+## Objetivos
 1. Modificar formato del parrafo agregado en el reto-01.
+2. Crear un texto con estilos, usando etiquetas específicas para ello.
 
 <br/>
 
-¿Cómo harías para agregar el texto promocional? ¿Te has dado cuenta que dentro
+¿Cómo harías para agregar el texto promocional, que aparece abajo del elemento para insertar tu correo electrónico? ¿Te has dado cuenta que dentro
 del mismo texto hay algunas palabras que tienen un mayor énfasis (formato en
 _negrita_)? ¿Cómo harías para cambiar el formato de solo esas palabras?
 
@@ -17,9 +19,11 @@ intimides y pregúntale a San Google (se volverá en uno de tus mejores amigos).
 <p>
 
 ```html
-<p>
-    <b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Proin laoreet sem in elit lobortis consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-</p>
+  <p>
+    Start publishing today with a <strong>free 7-day trial.</strong>
+    <br>
+    <strong>No credit card</strong> required.
+  </p>
 ```
 
 </p>
@@ -27,5 +31,5 @@ intimides y pregúntale a San Google (se volverá en uno de tus mejores amigos).
 
 <br/>
 
-[Siguiente](../Ejemplo%2004)
+[Siguiente](../Ejemplo%2004/README.md)
 

@@ -1,7 +1,17 @@
 # Ej. 05 - Haciendo responsive la sección de características principales
 
+## Introducción
+No solo los elementos que usan flexbox necesitan cambios para ajustarseal tamaño de la pantalla. También los elementos que usan CSS Grid deben ajustarse para que nuestro diseño sea visible en las pantallas pequeñas o grandes, según queramos que se presente nuestro contenido.
+## Objetivo
+1. Aplicar técnicas de diseño responsive a elementos con CSS Grid.
+## Requisitos
+- Tener instalado Visual Studio Code.
+- Tener conocimiento de CSS Grid.
+
+## Desarrollo
+
 De momento ya tenemos de manera responsive nuestra portada inicial,
-≥adicionalmente acabamos de cambiar el flujo de nuestra sección publicitaria
+adicionalmente acabamos de cambiar el flujo de nuestra sección publicitaria
 que usa Flexbox. La siguiente sección que corresponde a la de publicidad no se
 desborda del ancho del dispositivo pero debido a que está estructurada con Grid
 CSS, está manteniendo la cantidad de columnas y filas que definimos cuando estaba
@@ -39,4 +49,4 @@ es necesaria mostrarla en la experiencia móvil.
 
 <br/>
 
-[Siguiente](./reto-04)
+[Siguiente](./reto-04/README.md)

@@ -1,11 +1,14 @@
 # Reto 02 - Agregar Carousel y la primer tarjeta
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Conocer como instalar Bootstrap.
-- Saber que es un framework
+## Objetivos
+1- Configurar y personalizar dos componentes de Bootstrap: Carrusel y Tarjeta.
 
-## INSTRUCCIONES
+## Requisitos
+- Tener Visual Stuido Code instalado.
+- Conocer qué es un framework de CSS.
+- Saber cómo funciona la propiedad `position: absolute` de CSS
+
+## Instrucciones
 
 - Inserta el contenido de la primer tarjeta en el carrusel, sustituyendo el primer `<img src="..." class="d-block w-100" alt="...">` por tu código de la tarjeta
 - Modifica los estilos de la tarjeta para que puedas ajustar visualmente los elementos.
@@ -155,4 +158,4 @@
 </details>
 <br/>
 
-[Siguiente](../reto-03)
+[Siguiente](../reto-03/README.md)

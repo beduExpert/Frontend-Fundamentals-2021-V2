@@ -1,10 +1,18 @@
 # Ej. 04 - Agregando un formulario
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener un editor de código instalado
+## Objetivos
+1. Aprender a usar elementos interactivos de un formulario de HTML: `<input>`
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Requisitos
+- Tener Visual Studio Code instalado.
+
+---
+<br/>
+
+## Instrucciones
 
 Los formularios en HTML hacen uso de etiquetas particulares para denotar el tipo
 de _control_ (caja de texto, botones, etc) que se va a usar en el formulario.
@@ -35,18 +43,21 @@ través de la etiqueta `<button></button>`. Debido a que el texto del botón se
 pone entre las etiquetas, el cerrado de la etiqueta no es automático. Además del
 texto es importante indicar el tipo de acción que realizará cuando se le de
 click al botón. En este caso queremos que el formulario envíe el correo que el
-usuario ingresa y por ende el tipo es a usar es `submit`.
+usuario ingresa y por ende el tipo de botón a usar es `submit`.
 
-Un detalle importante es que los controles de formulario deben estar contenidos
-por una etiqueta `<form></form>`. Nuestro HTML del formulario quedaría así:
+Un detalle importante es que los controles de formulario deben estar
+dentro de una etiqueta `<form></form>`. Nuestro HTML del formulario quedaría así:
 
 ```html
-<form>
-  <input type="email" />
-  <button type="submit">
-    Try it now &rarr;
-  </button>
-</form>
+<body>
+  <!-- Aquí va el código anterior-->
+  <form>
+    <input type="email" />
+    <button type="submit">
+      Try it now &rarr;
+    </button>
+  </form>
+</body>
 ```
 
 Este formulario por si solo no hará ninguna acción, por el momento solo
@@ -54,4 +65,4 @@ dejaremos que esté visible, la funcionalidad la dejaremos para después.
 
 <br/>
 
-[Siguiente](../reto-03)
+[Siguiente](../reto-03/README.md)
