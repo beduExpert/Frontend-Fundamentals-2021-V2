@@ -1,5 +1,20 @@
 # Ej. 02 - Agregando la etiqueta video de HTML5
 
+## Objetivo
+- Agregar un elemento de video a tu proyecto.
+- Configurar automáticamente el video según el tamaño de pantalla o dispositivo usado para visualizar la página de tu proyecto.
+
+---
+<br/>
+
+## Requisitos
+- Tener Visual Studio Code instalado.
+
+---
+<br/>
+
+## Desarrollo
+
 ¡Manos a la obra! Antes de agregar el video, debemos de saber qué video vamos a
 utilizar en nuestra web, si inspeccionamos la web de Matcha, encontraremos que
 usa un video que está almacenado en una plataforma externa llamada Wistia, en
@@ -84,4 +99,4 @@ podemos reproducir?
 
 <br/>
 
-[Siguiente](../reto-02)
+[Siguiente](../reto-02/README.md)

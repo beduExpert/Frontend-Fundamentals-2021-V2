@@ -1,12 +1,19 @@
 # Reto 04 - Agregando contenedor al video para agregar imagen
+## Objetivos
+- Configurar Flexbox para acomodar contenido verticalmente
 
-## REQUISITOS
+---
+<br/>
+
+## Requisitos
 - Tener Git Bash si usas Windows.
 - Tener conocimientos básicos de HTML y CSS
 
+
+---
 <br/>
 
-## INSTRUCCIONES
+## Instrucciones
 
 ¿Te diste cuenta que hay una imagen debajo del video que no hemos agregado ni
 considerado? ¿Cómo va a afectar esto lo que llevamos actualmente? Bien, es tu
@@ -64,8 +71,4 @@ Resultando algo como:
 
 <br/>
 
-No olvides subir tus cambios a Github y revisar que se vean los cambios reflejados en tu página alojada en GitHub Pages.
-
-<br/>
-
-[Siguiente](../Ejemplo-05)
+[Siguiente](../Ejemplo-05/README.md)

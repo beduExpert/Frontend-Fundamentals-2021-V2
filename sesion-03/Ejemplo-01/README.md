@@ -1,14 +1,25 @@
-## Ej. 01 - Creando nuestras Ramas para versiones de nuestro proyecto 
+## Ej. 01 - Creando nuestras Ramas para versiones de nuestro proyecto
 
-### Instrucciones
+## Objetivos
+- Aprender cómo obtener cambios desde un repositorio en GitHub.
+- Aprender cómo integrar esos cambios en nuestra rama de trabajo.
 
-1. Escribimos `git branch` para saber en que rama estoy y cuantas ramas tengo 
-2. Escribimos `git branch [Nombre de rama] `para crear nuestras.
-3. Escribimos `git checkout [Nombre de la rama] `para cambiarnos de rama. 
-
+---
 <br/>
 
-## Obteniendo cambios con git `git pull`  `git fetch` y `git merge`
+## Instrucciones
+
+1. Escribimos `git branch` para saber en que rama estoy y cuantas ramas tengo
+2. Escribimos `git branch [Nombre de rama] `para crear nuestras.
+3. Escribimos `git checkout [Nombre de la rama] `para cambiarnos de rama.
+
+---
+<br/>
+
+## Desarrollo
+<br/>
+
+### Obteniendo cambios con git `git pull`  `git fetch` y `git merge`
 
 1. Escribiremos `git fetch` para traer los cambios que se realizaron desde otro
    ordenador, ya sea cambios que tu hiciste o que alguien te mandó un Pull Request
@@ -74,4 +85,4 @@
 
 <br/>
 
-[Siguiente](../reto-01)
+[Siguiente](../reto-01/README.md)

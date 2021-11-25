@@ -1,9 +1,15 @@
 # Reto 03 - Alineación de texto en la barra de navegación
 
+## Objetivos
+- Utilizar conjunto de propiedades para alinear textos
+
+---
+<br/>
 ## REQUISITOS
 - Tener Git Bash si usas Windows.
 - Tener conocimientos básicos de HTML y CSS
 
+---
 <br/>
 
 ## INSTRUCCIONES
@@ -16,19 +22,21 @@ Nuestra barra de navegación va tomando forma, pero, ¿qué tal si vamos alinean
 <p>
 
 ```css
-.navbar {
+
+  .navbar {
     width: 70%;
     text-align: left;
     color: #025157;
     font-weight: 500;
   }
-  
+
   .actions {
     width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
   }
+
 ```
 
 </p>
@@ -36,4 +44,4 @@ Nuestra barra de navegación va tomando forma, pero, ¿qué tal si vamos alinean
 
 <br/>
 
-[Siguiente](../reto-04)
+[Siguiente](../reto-04/README.md)

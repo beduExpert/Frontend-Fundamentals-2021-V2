@@ -1,10 +1,18 @@
 # Reto 2.1 - Agregando controles de reproducción al video
+## Objetivos
+- Configurar el elemento de video para que muestre controles de reproducción.
+- Agregar una imagen para que el video muestre una pre-visualización del contenido.
+
+---
+<br/>
 
 ## REQUISITOS
 - Tener Git Bash si usas Windows.
 - Tener conocimientos básicos de HTML y CSS
-- Tener conocimientos básicos de Git
+- Tener isntalado Visual Studio Code
 
+
+---
 <br/>
 
 ## INSTRUCCIONES
@@ -85,4 +93,4 @@ de la imagen de portada como valor.
 
 <br/>
 
-[Siguiente](../Ejemplo-03)
+[Siguiente](../Ejemplo-03/README.md)

@@ -1,5 +1,21 @@
 # Ej. 04 - Alineamiento horizontal con flexbox
 
+## Objetivos
+- Utilizar flexbox para alinear correctamente el contenido
+- Reconocer la diferencia entre Felxbox container y flex-items.
+- 
+
+---
+<br/>
+
+## Requisitos
+-Tener instalado Visual Studio Code
+
+---
+<br/>
+
+## Desarrollo
+
 Para llevar esto a cabo, revisemos nuestra estructura actual, probablemente se
 vea algo así:
 
@@ -116,4 +132,4 @@ definiendo el tamaño que van a ocupar cada uno de ellos más adelante.
 
 <br/>
 
-[Siguiente](../reto-04)
+[Siguiente](../reto-04/README.md)

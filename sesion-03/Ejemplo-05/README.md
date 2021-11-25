@@ -1,5 +1,19 @@
 # Ej. 05 - Aplicando `position:fixed`
 
+## Objetivos
+- Colocar la barra de navegación siempre en la parte superior mediante CSS.
+- Utilizar estilos para ajustar la barra de navegación a los nuevos requerimientos.
+
+---
+<br/>
+
+## Requisitos
+- Tener Visual Studio Code instalado.
+---
+<br/>
+
+## Desarrollo
+
 Ya que nuestra barra de navegación tiene estilos y está funcionando, vamos a
 envolverla en un contenedor en el cual podamos agregar esta propiedad y así no
 realizar muchos cambios a lo que tenemos actualmente.
@@ -86,4 +100,4 @@ main {
 
 <br/>
 
-[Siguiente](../postwork)
+[Siguiente](../postwork/README.md)

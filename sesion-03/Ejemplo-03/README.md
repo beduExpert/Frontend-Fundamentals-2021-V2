@@ -1,5 +1,20 @@
 # Ej. 03 - Agregando múltiples formatos de video
 
+## Objetivos
+- Agregar diversas fuentes de video, según formato.
+
+
+---
+<br/>
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+
+---
+<br/>
+
+## Desarrollo
+
 A continuación agregaremos los elementos `<source />` dentro de la etiqueta de
 `<video></video>`.
 
@@ -31,4 +46,4 @@ en el formato especificado.
 
 <br/>
 
-[Siguiente](../reto-03)
+[Siguiente](../reto-03/README.md)

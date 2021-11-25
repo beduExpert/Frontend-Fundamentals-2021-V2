@@ -1,5 +1,22 @@
 # Ej. 02 - Cambiando el modelo de caja del menú de navegación
 
+## Objetivo
+- Identificar elementos de bloque y de línea.
+- Usar etiquetas semánticas para mejor legibilidad del código.
+- Definir conjunto de propiedades de CSS para alinear correctamente el contenido de la barra de navegación.
+
+---
+<br/>
+
+## Requisitos
+- Tener instalado Visual Studio Code
+- Conocer la diferencia entre elemento de bloque y elemento de línea
+
+---
+<br/>
+
+## Desarrollo
+
 En este punto ya tenemos las separaciones deseadas entre los bloques más grandes
 de contenido, sin embargo nuestro menú de navegación aun no tiene la apariencia
 del sitio original, ya que se muestran de forma vertical (uno debajo del otro),
@@ -212,4 +229,4 @@ página alojada en GitHub Pages.
 
 <br/>
 
-[Siguiente](../reto-02)
+[Siguiente](../reto-02/README.md)
