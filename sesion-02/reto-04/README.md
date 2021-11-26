@@ -1,9 +1,18 @@
 # Reto 04 - Agregando estilos restantes
+## Objetivos
+- Agregar clases y estilos a la barra de navegación.
+- Subir los cambios a GitHub
 
-## REQUISITOS
+---
+<br/>
+
+## Requisitos
 - Tener Git Bash si usas Windows.
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Instrucciones
 
 A continuación completa los siguientes requerimientos:
 
@@ -82,4 +91,4 @@ No olvides subir tus cambios a Github y revisar que se vean los cambios reflejad
 
 <br/>
 
-[Regresar](../)
+[Regresar](../README.md)

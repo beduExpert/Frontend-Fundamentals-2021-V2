@@ -1,10 +1,17 @@
 # Reto 01 - Agrega colores usados en las tarjetas
 
 ## Objetivos
-1. Agregar nuevas variables de color en SCSS
-2. Utilizar la consola de desarrollador del navegador para obtener información de los elementos de la página de Matcha.
+- Agregar nuevas variables de color en SCSS
+- Utilizar la consola de desarrollador del navegador para obtener información de los elementos de la página de Matcha.
+
+---
+<br/>
+
 ## Requisitos
 - Tener instalado Visual Studio Code.
+
+---
+<br/>
 
 ## Instrucciones
 

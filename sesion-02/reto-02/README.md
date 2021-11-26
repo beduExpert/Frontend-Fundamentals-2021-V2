@@ -1,12 +1,18 @@
 # Reto 02 - Aplica el margen utilizando el atajo de la propiedad `margin`
+## Objetivos
+- Utilizar las propiedades abreviadas ("shortcuts") de margen.
 
-## REQUISITOS
+---
+<br/>
+
+## Requisitos
 - Tener Git Bash si usas Windows.
 - Tener conocimientos básicos de HTML y CSS
 
+---
 <br/>
 
-## INSTRUCCIONES
+## Instrucciones
 
 ¿Sabías que la propiedad `margin` puede asignar el valor de los 4 lados en una
 sola línea? Si es la primera vez que escuchas esto, no dudes en _googleaerlo_ y
@@ -15,15 +21,6 @@ sola. Luego imagina, pregunta e investiga que otras propiedades tienen el mismo
 atajo.
 
 <br/>
-
-# Aplica el margen al contenido
-
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-
-<br/>
-
-## INSTRUCCIONES
 
 El contenido que agregamos en la sesión anterior también tiene una separación de
 la barra de navegación. Esto podríamos solucionarlo agregando un margen a la
@@ -34,4 +31,4 @@ que englobe a todo nuestro contenido y aplicar el margen a dicho contenedor.
 
 <br/>
 
-[Siguiente](../reto-03)
+[Siguiente](../reto-03/README.md)

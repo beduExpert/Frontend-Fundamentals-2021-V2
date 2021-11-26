@@ -1,10 +1,15 @@
 # Reto 01 - Etiquetas semánticas para barra de navegación
+## Objetivos
+- Utilizar etiquetas semánticas en la barra de navegación.
+- Agregar los estilos correctos para ajustar el posicionamiento de la barra de navegación.
+
+---
+<br/>
 
 ### REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener la configuración básica en git (user.name/user.email)
 - Tener conocimientos básicos de HTML y CSS
 
+---
 <br/>
 
 ### INSTRUCCIONES
@@ -38,6 +43,7 @@ Teniendo en cuenta lo siguiente:
 <p>
 
 ```html
+
 <header class="header">
   <!-- Logo con link a la página principal -->
   <a href="/">
@@ -59,6 +65,7 @@ Teniendo en cuenta lo siguiente:
     <button>Start free trial</button>
   </div>
 </header>
+
 ```
 
 </p>
@@ -66,8 +73,8 @@ Teniendo en cuenta lo siguiente:
 
 <br/>
 
-### NOTA: 
-Si se percataron, la barra de navegación en la página original no está pegada al borde superior del navegador, en cambio, esta se encuentra a una distancia fija y el contenido de igual manera se encuentra a una distancia específica de la barra de navegación.
+### NOTA:
+Vemos que la barra de navegación en la página original no está pegada al borde superior del navegador. En cambio, esta se encuentra a una distancia fija y el contenido de igual manera se encuentra a una distancia específica de la barra de navegación.
 
 Para agregar este tipo de espaciados, podemos usar la propiedad margin, que nos permite poner un margen de separación entre elementos, ya sea en cualquiera de los 4 lados de la caja (arriba, derecha, abajo e izquierda).
 
@@ -87,4 +94,4 @@ Para el caso de la barra de navegación agregaremos un margen superior de 40px y
 }
 ```
 
-[Siguiente](../Ejemplo%2002)
+[Siguiente](../Ejemplo%2002/README.md)

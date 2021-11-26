@@ -1,7 +1,11 @@
 # Sesión 03: Dividiendo secciones en columnas
 
-Sigue el contenido a continuación durante clase para que no te pierdas ningún
-detalle de lo que estás a punto de aprender.
+## Introducción
+
+La web se distingue, respecto de otros medios, en poder presentar todo tipo de contenidos: texto, sonido, video. Es a través de estos elementos que la web puede presentar elementos que acaparan la atención del usuario y transmiten más fácilmente los conceptos que el desarrollador quiere enviar. Por ello, hoy aprenderemos cómo insertar este tipo de elementos, a utilizar un diseño más complejo con columnas.
+
+---
+<br/>
 
 ## Objetivos
 
@@ -10,36 +14,40 @@ En esta sesión aprenderás:
 - Agregar contenido de `video` a nuestra web.
 - Cambiar el posicionamiento de los elementos HTML.
 - Estructurar los elementos dentro de un `contenedor` de manera `flexible`.
+- Configurar una de las tecnologías más importantes en acomodo de contenido, FlexBox.
 - Usar comandos de `git` para obtener cambios realizados por `terceros`.
+
+---
+<br/>
 
 ## Requisitos
 
-- Git  instalado
+- Git instalado
 - Navegador web
-- Editor de código 
+- Tener instalado Visual Studio Code.
 - Cuenta de Github
 
 ## Organización de la clase
 
-- [Ejemplo 01: Creando nuestras Ramas para versiones de nuestro proyecto ( 10 minutos ) ](./Ejemplo-01)
+- [Ejemplo 01: Creando nuestras Ramas para versiones de nuestro proyecto ( 10 minutos ) ](./Ejemplo-01/README.md)
 
-- [Reto  01: Creando nuestras ramas / git fetch y git merge ( 20 minutos ) ](./reto-01)
+- [Reto 01: Creando nuestras ramas / git fetch y git merge ( 20 minutos ) ](./reto-01/README.md)
 
-- [Ejemplo  02: Agregando la etiqueta video de HTML5 ( 10 minutos ) ](./Ejemplo-02)
+- [Ejemplo 02: Agregando la etiqueta video de HTML5 ( 10 minutos ) ](./Ejemplo-02/README.md)
 
-- [Reto  02: Agregando controles de reproducción y portada al video ( 10 minutos ) ](./reto-02)
+- [Reto 02: Agregando controles de reproducción y portada al video ( 10 minutos ) ](./reto-02/README.md)
 
-- [Ejemplo  03: Agregando múltiples formatos de video ( 10 minutos ) ](./Ejemplo-03)
+- [Ejemplo 03: Agregando múltiples formatos de video ( 10 minutos ) ](./Ejemplo-03/README.md)
 
-- [Reto  03: Agrega la sección de publicidad ( 10 minutos ) ](./reto-03)
+- [Reto 03: Agrega la sección de publicidad ( 10 minutos ) ](./reto-03/README.md)
 
-- [Ejemplo  04: Alineamiento horizontal con flexbox ( 15 minutos ) ](./Ejemplo-04)
+- [Ejemplo 04: Alineamiento horizontal con flexbox ( 15 minutos ) ](./Ejemplo-04/README.md)
 
-- [Reto  04: Agregando contenedor al video para agregar imagen ( 15 minutos ) ](./reto-04)
+- [Reto 04: Agregando contenedor al video para agregar imagen ( 15 minutos ) ](./reto-04/README.md)
 
-- [Ejemplo  05: Aplicando `position:fixed` ( 10 minutos ) ](./Ejemplo-05)
+- [Ejemplo  05: Aplicando `position:fixed` ( 10 minutos ) ](./Ejemplo-05/README.md)
 
-- [Postwork ( 20 minutos ) ](./postwork)
+- [Postwork ( 20 minutos ) ](./postwork/README.md)
 
 <br/>
 

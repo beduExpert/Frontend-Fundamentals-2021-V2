@@ -1,9 +1,16 @@
 # Reto 03 - Agrega la sección de publicidad
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
+## Objetivos
+- Agregar una segunda columna de contenido.
+- Agregar estilos en la segunda columna.
 
-## INSTRUCCIONES
+---
+<br/>
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+
+## Instrucciones
 
 Ya tenemos el video en nuestra página, ahora, si revisamos la web de Matcha, nos
 vamos a dar cuenta que tiene un texto publicitario junto con un formulario
@@ -105,4 +112,4 @@ Resultando algo así:
 
 <br/>
 
-[Siguiente](../Ejemplo-04)
+[Siguiente](../Ejemplo-04/README.md)

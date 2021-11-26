@@ -2,7 +2,7 @@
 
 ## Objetivos
 
-- Profundizar en Flexbox
+- Profundizar en el manejo de Flexbox
 
 ## Recursos
 
@@ -22,7 +22,7 @@ de cada caso de estudio si deseas también.
 
 Utiliza las herramientas de desarrollo del navegador para obtener los colores y
 links de imágenes por si quieres evitarte el buscar tus propios recursos. Revisa
-el siguiente elace si tienes dudas de cómo hacerlo:
+el siguiente enlace si tienes dudas de cómo hacerlo:
 
 [Google Developers - Inspecciona y edita páginas y estilos](https://developers.google.com/web/tools/chrome-devtools/inspect-styles?hl=es)
 
@@ -36,6 +36,10 @@ postwork.
 
 [CSS Tricks - A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+También puedes jugar y obtener una mejor comprensión de las capacidades de FlexBox.
+
+[Juego para aprender a manejar FlexBox](https://flexboxfroggy.com/#es)
+
 <br/>
 
-[Regresar](../)
+[Regresar](../README.md)

@@ -1,13 +1,19 @@
 # Ej. 03 - Agregando segunda columna del blog
 
 ## Objetivos
-1. Utilizar estilos y elementos de Bootstrap.
-2. Completar la sección Blog de nuestro proyecto.
+- Utilizar estilos y elementos de Bootstrap.
+- Completar la sección Blog de nuestro proyecto.
+
+---
+<br/>
 
 ## Requisitos
 - Tener instalado Visual Studio Code.
 - Conocer estilos de Bootstrap.
 - Conocer el patrón de diseño de Bootstrap para contenedores.
+
+---
+<br/>
 
 ## Desarrollo
 
@@ -40,8 +46,15 @@ base y luego iremos modificando. Sin más, empecemos:
 </section>
 ```
 
+<br/>
+
 Ahora empecemos a cambiar el contenido por lo que necesitamos en la web de
 Matcha:
+
+<br/>
+
+<br/>
+
 
 ```html
 <section class="container blog">
@@ -84,6 +97,8 @@ Matcha:
   </div>
 </section>
 ```
+
+<br/>
 
 Con esta estructura nuestro post va tomando forma. Ahora es momento de
 personalizar su apariencia con cambios en Sass.

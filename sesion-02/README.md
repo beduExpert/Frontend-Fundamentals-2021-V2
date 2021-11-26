@@ -1,7 +1,7 @@
 # Sesión 02: Agregando la barra de navegación
 
-Sigue el contenido a continuación durante clase para que no te pierdas ningún
-detalle de lo que estás a punto de aprender.
+## Introducción
+Durante esta sesión vamos a implementar a nuestro clon de la página de Matcha uno de los elementos más usados en una página web, la barra de navegación. Aquí aprenderemos el uso de etiquetas semánticas disponibles en HTML5 y conoceremos cómo administrar correctamente la posición de elementos mediante el modelo de cajas de HTML.
 
 ## Objetivos
 
@@ -17,20 +17,20 @@ En esta sesión aprenderás:
 
 - Git  instalado
 - Navegador web
-- Editor de código 
+- Tener instalado Visual Studio Code.
 - Cuenta de Github
 
 ## Organización de la clase
 
-- [Ejemplo 01: HTML de la barra de navegación ( 10 minutos ) ](./Ejemplo%2001)
+- [Ejemplo 01: HTML de la barra de navegación ( 10 minutos ) ](./Ejemplo%2001/README.md)
 
-- [Reto  01: Etiquetas semánticas para barra de navegación ( 15 minutos ) ](./reto-01)
+- [Reto  01: Etiquetas semánticas para barra de navegación ( 15 minutos ) ](./reto-01/README.md)
 
-- [Ejemplo  02: Cambiando el modelo de caja del menú de navegación ( 25 minutos ) ](./Ejemplo%2002)
+- [Ejemplo  02: Cambiando el modelo de caja del menú de navegación ( 25 minutos ) ](./Ejemplo%2002/README.md)
 
-- [Reto  02: Aplica el margen utilizando el atajo de la propiedad `margin` ( 15 minutos ) ](./reto-02)
+- [Reto  02: Aplica el margen utilizando el atajo de la propiedad `margin` ( 15 minutos ) ](./reto-02/README.md)
 
-- [Reto  03: Alineación de texto en la barra de navegación ( 15 minutos ) ](./reto-03)
+- [Reto  03: Alineación de texto en la barra de navegación ( 15 minutos ) ](./reto-03/README.md)
 
-- [Reto  04: Agregando estilos restantes ( 25 minutos ) ](./reto-04)
+- [Reto  04: Agregando estilos restantes ( 25 minutos ) ](./reto-04/README.md)
 

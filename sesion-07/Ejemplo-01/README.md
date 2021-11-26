@@ -1,13 +1,18 @@
 # Ej. 01 - Empezando a estructurar Sass
 
 ## Objetivo
-1. Establecer la estructura de SASS para nuestro proyecto, siguiendo mejores prácticas.
-2. Configurar el compilador de SASS para obtener nuestra hoja de estilos.
+- Establecer la estructura de SASS para nuestro proyecto, siguiendo mejores prácticas.
+- Configurar el compilador de SASS para obtener nuestra hoja de estilos.
+
+---
+<br/>
 
 ## Requisitos
 - Tener instalado Visual Studio Code.
 - Tener instalado SASS versión dart.
 
+---
+<br/>
 
 ## Desarrollo
 Sass nos permite detectar dos tipos de archivos, los que tienen extensión `.scss`

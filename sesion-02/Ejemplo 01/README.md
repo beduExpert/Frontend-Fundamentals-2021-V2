@@ -1,8 +1,21 @@
 # Ej. 01 HTML de la barra de navegación
+ ## Objetivo
+ - Crear la estructura de HTML que contenga nuestra barra de navegación.
+
+---
+<br/>
+
+## Requisitos
+- Tener instalado Visual Studio Code.
+
+---
+<br/>
+
+## Desarrollo
 
 Para nuestra barra de navegación usaremos la etiqueta `header` ya que es la
 cabecera de nuestra página. Dentro de esta etiqueta pondremos otros 3
-contenedores: un link conel logo dentro, el menú de navegación y el contenedor
+contenedores: un link con el logo dentro, el menú de navegación y el contenedor
 de acciones de usuario.
 
 ```html
@@ -27,4 +40,4 @@ de acciones de usuario.
 
 <br/>
 
-[Siguiente](../reto-01)
+[Siguiente](../reto-01/README.md)

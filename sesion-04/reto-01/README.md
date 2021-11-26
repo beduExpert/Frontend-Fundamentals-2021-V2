@@ -1,21 +1,28 @@
-# Reto 01 - Flex
+# Grid con 3 columnas iguales
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener conocimientos de CSS (Flexbox)
+## Objetivo
+- Utilizar las propiedades CSS para definir columnas con Grid.
+## Requisitos
+- Tener instalado Visual Studio Code
+- Tener conocimientos de CSS (Grid)
 
 ## Instrucciones
 
-1. Implementa las propiedades que ahora ya conoces dentro del proyecto que estamos realizando
-2. Pasa los niveles de Flexbox defense y Flexbox Froggy!!
+Queremos indicar que nuestra grid va a contener 3 columnas del mismo ancho
+relativo al espacio disponible en la pantalla. ¿Cómo lo lograrías usando la
+función `repeat(cantidad, tamaño)`?
 
-    - [Flexbox defense](http://www.flexboxdefense.com/) <br/>
-    - [Flexbox froggy](https://flexboxfroggy.com/)
+<details>
+  <summary>Posible Solución</summary>
 
+```css
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+```
+
+</details>
 <br/>
 
-## (Los niveles que te falten los puedes terminar como Post Work)
-
-<br/>
-
-[Siguiente](../Ejemplo-02)
+[Siguiente](../reto-02/README.md)
