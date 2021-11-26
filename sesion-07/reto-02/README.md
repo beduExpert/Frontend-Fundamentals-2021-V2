@@ -1,11 +1,17 @@
 # Reto 02 - Agrega la tercera columna
 
 ## Objetivos
-1. Reutilizar los estilos aplicados en la colummna anterior.
-2. Utilizando la consola de desarrollador del navegador, obtener infromación útil para agregar al proyecto.
+- Reutilizar los estilos aplicados en la colummna anterior.
+- Utilizando la consola de desarrollador del navegador, obtener infromación útil para agregar al proyecto.
+
+---
+<br/>
 
 ## Requisitos
 - Tener Visual Studio Code instalado.
+
+---
+<br/>
 
 ## Instrucciones
 

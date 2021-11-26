@@ -1,13 +1,21 @@
 # Ej. 02 - Agregando primera columna del blog
 
 ## Objetivos
-1. Agregar otra hoja de estilos en el proyecto
-2. Definir variables en SASS/SCSS
-3. Establecer "placeholders" en SASS/SCSS
-4. Utilizar diferentes archivos de SCSS
+- Agregar otra hoja de estilos en el proyecto
+- Definir variables en SASS/SCSS
+- Establecer "placeholders" en SASS/SCSS
+- Utilizar diferentes archivos de SCSS
+
+---
+<br/>
+
 
 ## Requisitos
 -Tener instalado Visual Studio Code.
+
+---
+<br/>
+
 ## Desarrollo
 
 De esta manera ya hemos indicado que la sección de blog va a utilizar tres
@@ -64,10 +72,13 @@ se tiene por defecto.
 > - [Ícono de convert](https://icon-library.com/images/icon-convert/icon-convert-2.jpg)
 >
 > Estos íconos fueron guardados en una carpeta `icons` en la raíz del proyecto. Si utilizas otra ruta para guardar estos íconos asegúrate de cambiarle la ruta relativa.
+<br/>
 
 Como vemos en el resultado de esta estructura, toma ciertos estilos por defecto
 pero que no son exactamente lo que queremos. Vamos a cambiar su apariencia
 usando Sass. Empecemos por solucionar el ancho del contenedor de la sección:
+
+<br/>
 
 ```scss
 /** main.scss */
@@ -77,6 +88,7 @@ usando Sass. Empecemos por solucionar el ancho del contenedor de la sección:
   padding: 5% 10%;
 }
 ```
+<br/>
 
 Con esto ya tenemos el fondo de color blanco aplicado correctamente a la sección
 de blog y también el margen respectivo. Ahora vamos a terminar de crear los
@@ -91,6 +103,7 @@ Para esto vamos a crear un archivo llamado `_global.scss` en la carpeta `scss`.
 
 La estructura debería quedar:
 
+<br/>
 ```text
 .
 +-- scss/
@@ -99,9 +112,10 @@ La estructura debería quedar:
 +-- index.html
 +-- styles.css
 ```
-
+<br/>
 Posteriormente vamos a crear algunas variables para los colores que vamos a
 utilizar en esta columna:
+<br/>
 
 ```scss
 /** _global.scss */
@@ -109,6 +123,7 @@ $dark-green-title: #025157;
 $dark-green-text: #135359;
 $white: #ffffff;
 ```
+<br/>
 
 Con las variables definidas, podremos usarlas en nuestro `main.scss` haciendo
 referencia al nombre de la variable y si en algún momento cambiaran los colores
@@ -121,6 +136,8 @@ común en otras secciones de la página. Para esto usaremos la funcionalidad de
 [extensión o herencia](https://sass-lang.com/documentation/at-rules/extend) que
 Sass nos provee. Empecemos por crear una variable para la fuente del título:
 
+<br/>
+
 ```scss
 /** _global.scss */
 
@@ -132,8 +149,11 @@ $white: #ffffff;
 /** fuentes */
 $font-title: "Alegreya", serif;
 ```
+<br/>
 
 Y ahora definamos la clase de placeholder:
+
+<br/>
 
 ```scss
 /** _global.scss */
@@ -152,6 +172,7 @@ $font-title: "Alegreya", serif;
   color: $dark-green-text;
 }
 ```
+<br/>
 
 De esta forma ya hemos creado valores que a través de un identificador, podemos
 usarla en nuestro código. Probablemente te quede una duda, cómo vamos a hacer
@@ -161,6 +182,7 @@ Sass, que a través de una regla llamada [`@use`](https://sass-lang.com/document
 podemos indicar que tenga acceso a las variables definidas en el otro archivo.
 
 Utilicemos `@use` para usar nuestras variables en el archivo `main.scss`:
+<br/>
 
 ```scss
 /** main.scss */
@@ -172,6 +194,7 @@ Utilicemos `@use` para usar nuestras variables en el archivo `main.scss`:
   padding: 5% 10%;
 }
 ```
+<br/>
 
 Dado que `@use` hace uso de un _namespace_ para identificar todas las variables
 que se exportan desde el módulo que indicamos, en nuestro caso le hemos puesto
@@ -181,6 +204,8 @@ fondo de la sección usando la variable `$white` que definimos en el otro archiv
 
 Ahora si estamos listos para agregar nuestros estilos a la primera columna,
 empecemos por el título:
+
+<br/>
 
 ```scss
 /** main.scss */
@@ -196,6 +221,7 @@ empecemos por el título:
   }
 }
 ```
+<br/>
 
 Acá hicimos uso de la regla `@extend` para heredar la clase de placeholder que
 definimos en el archivo `_global.scss` y además usamos la funcionalidad de
@@ -205,6 +231,8 @@ compilándose en el css a `.blog .title` sin la necesidad que nosotros lo
 escribamos de dicha forma.
 
 Ahora, pongamos un poco de estilos a la lista de procesos:
+
+<br/>
 
 ```scss
 /** main.scss */
@@ -229,12 +257,14 @@ Ahora, pongamos un poco de estilos a la lista de procesos:
   }
 }
 ```
+<br/>
 
 Hemos agregado un poco de espaciado a la lista de procesos y entre cada uno de
 los procesos, ahora vamos a definir propiedades específicas para el texto que
 está dentro de cada proceso. Usaremos el [`parent selector`](https://sass-lang.com/documentation/style-rules/parent-selector)
 de Sass para hacer referencia al selector padrer y aplicar un selector de CSS
 más específico:
+<br/>
 
 ```scss
 /** main.scss */
@@ -272,8 +302,11 @@ más específico:
   }
 }
 ```
+<br/>
 
 Y ahora agreguemos estilos para el ícono de cada uno de los procesos:
+
+<br/>
 
 ```scss
 /** main.scss */
@@ -323,7 +356,11 @@ Y ahora agreguemos estilos para el ícono de cada uno de los procesos:
 }
 ```
 
+<br/>
+
 Por último, agreguemos los estilos del botón:
+
+<br/>
 
 ```scss
 /** main.scss */
@@ -384,4 +421,4 @@ Por último, agreguemos los estilos del botón:
 
 <br/>
 
-[Siguiente](../Ejemplo-03)
+[Siguiente](../Ejemplo-03/README.md)
