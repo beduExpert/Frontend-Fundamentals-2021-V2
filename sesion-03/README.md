@@ -2,7 +2,7 @@
 
 ## Introducción
 
-La web se distingue, respecto de otros medios, en poder presentar todo tipo de contenidos: texto, sonido, video. Es a través de estos elementos que la web puede presentar elementos que acaparan la atención del usuario y transmiten más fácilmente los conceptos que el desarrollador quiere enviar. Por ello, hoy aprenderemos cómo insertar este tipo de elementos, a utilizar un diseño más complejo con columnas y utilizar la tecnología FlexBox.
+La web se distingue, respecto de otros medios, en poder presentar todo tipo de contenidos: texto, sonido, video. Es a través de estos elementos que la web puede presentar elementos que acaparan la atención del usuario y transmiten más fácilmente los conceptos que el desarrollador quiere enviar. Por ello, hoy aprenderemos cómo insertar este tipo de elementos, a utilizar un diseño más complejo con columnas.
 
 ---
 <br/>

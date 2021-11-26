@@ -1,26 +1,33 @@
 # Reto 04 - Agregando el contenido de las tarjetas
+## Objetivo
+- Interpretar la máqueta disponible para incluir los elementos HTML más adecuados para la acción que se requiere en el Front End.
+- Generar elementos repetibles de código que puedan ser utilizados en más lugares del código del proyecto.
 
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener conocimientos de CSS (Flexbox)
-- Tener conocimientos de CSS (Gid)
-
+---
 <br/>
 
-## INSTRUCCIONES
+## Requisitos
+- Tener instalado Visual Studio Code.
+- Tener conocimientos de CSS (Flexbox).
+- Tener conocimientos de CSS (Grid).
 
-¡Es hora de poner en práctica lo aprendido hasta ahora! Agrega el contenido 
+---
+<br/>
+
+## Instrucciones
+
+¡Es hora de poner en práctica lo aprendido hasta ahora! Agrega el contenido
 interno de cada tarjeta a excepción de la animación que se genera al poner el
 mouse sobre la imagen de la derecha de cada tarjeta (si deseas averiguar cómo
-lograr ese efecto, genial, solo recuerda que no es la prioridad de este 
+lograr ese efecto, genial, solo recuerda que no es la prioridad de este
 challenge).
 
 > TIP:
 > * Recuerda que puedes obtener el link de las imágenes, inspeccionando la página
   con el Dev Tools del navegador.
-> * Para posicionar la imagen de la forma que está en la página, puedes jugar con 
+> * Para posicionar la imagen de la forma que está en la página, puedes jugar con
   las propiedades de _position_.
-> * El contenido interno de las tarjetas pueden ser estructurado con cualquier 
+> * El contenido interno de las tarjetas pueden ser estructurado con cualquier
   técnica que has conocido hasta el momento, no necesariamente con CSS Grid.
 
 <br/>
@@ -29,7 +36,9 @@ challenge).
   <summary>Posible Solución</summary>
 
 Esta solución, usa Flexbox para estructurar el contenido interno de las tarjetas
-y `position: relative` para lograr la apariencia de la imagen.
+y `position: relative` para lograr la apariencia de la imagen. Recuerda usar las propiedades de default de HTML/CSS. Por ejemplo, puedes utilizar elementos de línea para textos que necesiten un  arreglo en pantalla particular, uno encima del otro. También puedes usar otros estilos como position: absolute o position: relative para que sea más sencillo manipularlo.
+
+Este es el código completo.
 
 ```html
 <section class="features">
@@ -204,4 +213,4 @@ y `position: relative` para lograr la apariencia de la imagen.
 
 <br/>
 
-[Siguiente](../postwork)
+[Siguiente](../postwork/README.md)
