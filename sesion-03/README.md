@@ -49,9 +49,15 @@ En esta sesión aprenderás:
 
 - [Postwork ( 20 minutos ) ](./postwork/README.md)
 
+[Regresar](../README.md)
+
 <br/>
 
-# Flexbox
+# Material Adicional
+---
+<br/>
+
+## Flexbox
 
 Flexbox es un método disponible en CSS para alinear y estructurar visualmente el contenido de un elemento HTML. Flexbox nos permite usar la propiedad de **display** para indicar cuando un elemento y su contenido, en caso de tener, puede alinearse de manera flexible.
 

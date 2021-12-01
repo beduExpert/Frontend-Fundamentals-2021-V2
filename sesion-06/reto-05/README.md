@@ -95,7 +95,7 @@ Insertemos en nuestro código el resto del contenido de las FAQ's en el acordeó
 
 </details>
 
-Ahora nuestro proyecto está casi completo. ¡Nos vemos pronto!
+Ahora nuestro proyecto está casi completo.
 <br/>
 
-[Regresar](../README.md)
+[Siguiente](../postwork/README.md)
