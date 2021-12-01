@@ -45,4 +45,4 @@ El objetivo es que tengas todo lo necesario en tu computador para poder llegar a
 5. [Responsive design ](./sesion-05)(Adaptando a la vista desde un móvil)
 6. [CSS Frameworks ](./sesion-06)(Reutilizando componentes visuales)
 7. [Preprocesadores de CSS ](./sesion-07)(Optimizando la producción de CSS)
-8. [Email development / Deploy de un sitio estático ](./sesion-08)(Email de Bienvenida)
+8. [Una Web interesante: Transiciones y Animaciones ](./sesion-08)(Animaciones y transiciones)
