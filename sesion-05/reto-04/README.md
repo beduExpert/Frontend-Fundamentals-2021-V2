@@ -1,4 +1,4 @@
-# Reto 04 - Mejorando la experiencia móvil de las tarjetas de características
+# Reto 04 - Mejorando la experiencia móvil de las tarjetas de características de Matcha
 
 ## Objetivos
 1. Utilizar media queries para ajustar el contenido que utilice CSS Grid a las dimensiones requeridas.
