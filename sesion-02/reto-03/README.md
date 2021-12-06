@@ -19,7 +19,7 @@ Nuestra barra de navegación va tomando forma, pero, ¿qué tal si vamos alinean
 <br/>
 
 <details><summary>Posible solución</summary>
-<p>
+
 
 ```css
 
@@ -39,7 +39,7 @@ Nuestra barra de navegación va tomando forma, pero, ¿qué tal si vamos alinean
 
 ```
 
-</p>
+
 </details>
 
 <br/>

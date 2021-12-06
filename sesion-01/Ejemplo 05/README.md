@@ -38,4 +38,4 @@ tu texto con color!
 
 <br/>
 
-[Siguiente](../reto-05/README.md)
+[Siguiente](../reto-04/README.md)

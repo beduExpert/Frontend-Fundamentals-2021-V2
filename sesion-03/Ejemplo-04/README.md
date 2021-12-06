@@ -3,7 +3,6 @@
 ## Objetivos
 - Utilizar flexbox para alinear correctamente el contenido
 - Reconocer la diferencia entre Felxbox container y flex-items.
-- 
 
 ---
 <br/>

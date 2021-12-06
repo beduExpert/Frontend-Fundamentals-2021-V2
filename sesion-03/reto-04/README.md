@@ -25,8 +25,7 @@ La imagen lo puedes encontrar [aquí](https://getmatcha.com/wp-content/themes/ge
 
 <br/>
 
-> TIP: Como la imagen irá debajo del video, el contenedor debe de cambiar la dirección
-de los elementos a `column`.
+> TIP: Como la imagen irá debajo del video, el contenedor debe de cambiar la dirección de los elementos a `column`.
 
 <br/>
 

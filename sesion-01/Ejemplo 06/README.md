@@ -61,4 +61,4 @@ tu primera sesión!
 
  <br/>
 
-[Siguiente](../reto-06/README.md)
+[Siguiente](../postwork/README.md)
