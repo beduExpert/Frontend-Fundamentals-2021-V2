@@ -40,7 +40,7 @@ El objetivo es que tengas todo lo necesario en tu computador para poder llegar a
 
 1. [Git y terminal ](./sesion-01)(Estructura tu sitio)
 2. [HTML5 y CSS3 ](./sesion-02)(Agregando barra de navegación)
-3. [HTML- flexbox ](./sesion-03)(Dividiendo secciones en columnas)
+3. [HTML- Flexbox ](./sesion-03)(Dividiendo secciones en columnas)
 4. [CSS Grid](./sesion-04)(Agregando filas y columnas con CSS Grid)
 5. [Responsive design ](./sesion-05)(Adaptando a la vista desde un móvil)
 6. [CSS Frameworks ](./sesion-06)(Reutilizando componentes visuales)
