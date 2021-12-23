@@ -5,7 +5,7 @@ Ahora que ya hemos manejado los elementos de CSS que nos ayudan a obtener un dis
 
 ## Objetivo
 1. Instalar y configurar Bootstrap en nuestro proyecto
-2. Agregar el código necesiario en nuestro proyecto para usar los elementos de CSS de Bootstrap.
+2. Agregar el código necesario en nuestro proyecto para usar los elementos de CSS de Bootstrap.
 
 ## Requisitos
 - Tener instalado Visual Studio Code.
