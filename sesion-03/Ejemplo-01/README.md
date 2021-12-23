@@ -1,8 +1,8 @@
 ## Ej. 01 - Creando nuestras Ramas para versiones de nuestro proyecto
 
 ## Objetivos
-- Aprender cómo obtener cambios desde un repositorio en GitHub.
-- Aprender cómo integrar esos cambios en nuestra rama de trabajo.
+- Obtener cambios desde un repositorio en GitHub.
+- Integrar esos cambios en nuestra rama de trabajo.
 
 ---
 <br/>
