@@ -15,11 +15,11 @@ Sesión 08
 En esta sección encontrarás algunos tips por si algún recurso mostrado viene en otro idioma y encontrarás la instalación necesaria para tu módulo.
 
 
-Algunos recursos están en inglés. Si prefieres leerlos en español, puedes hacer de Google tu traductor predeterminado, quien te ofrecerá la opción de traducir la página que vas a consultar. 
+Algunos recursos están en inglés. Si prefieres leerlos en español, puedes hacer de Google tu traductor predeterminado, quien te ofrecerá la opción de traducir la página que vas a consultar.
 
 [](../assets/traducir-pagina.png)
 
-- Otra opción es usar un traductor desde cualquier buscador. 
+- Otra opción es usar un traductor desde cualquier buscador.
 [](../assets/traductor-google.png)
 
 
@@ -43,7 +43,7 @@ A continuación te mostramos  las instalaciones necesarias para tu módulo:
 - Tener una cuenta de [GitHu](https://github.com/)b
 
 ### **Desarrollo**
-¡Hemos llegado al final del módulo! Hace un mes, posiblemente sabías muy poco o nada sobre el desarrollo HTML y CSS, pero ahora ya conoces esos dos lenguajes con la suficiente profundidad como para continuar con este proceso de aprender desarrollo web. 
+¡Hemos llegado al final del módulo! Hace un mes, posiblemente sabías muy poco o nada sobre el desarrollo HTML y CSS, pero ahora ya conoces esos dos lenguajes con la suficiente profundidad como para continuar con este proceso de aprender desarrollo web.
 
 Ahora te damos un nuevo desafío con lo que aprendiste en clase, que te permitirá familiarizarte aún más con los elementos de CSS como son las transiciones y animaciones. Todavía hay mucho material que obtendrás con Bedu, así que ¡esto apenas empieza!
 

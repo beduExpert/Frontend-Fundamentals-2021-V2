@@ -1,12 +1,16 @@
-# Reto 03 - Creando mi formulario
+## Reto 04 - Agregando una imagen
 
 ## Objetivos
-1. Utiliza los elementos que vimos para crear un formulario donde pueda poner: Nombre, Apellido, Edad, Email y Contraseña. Este formulario será temporal, solo para ayudarnos a ejercitar cómo incluir elementos en nuestro formulario.
+1. Insertar imágenes en nuestro proyecto.
+## Desarrollo
+
+Es tu turno de agregar la última parte de la estructura que tenemos pensado para esta sesión: la imagen. Esta la puedes obtener desde este [link](https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png). También puedes comentar el contenido del formulario de práctica que hicimos en la actividad anterior.
 
 <br/>
 
-> TIP: No dudes en googlear o preguntar a tus compañeros como puedes ocultar
-> los caracteres cuando sea contraseña, y como lograr que el campo de edad solo acepte números.
+> TIP: No dudes en googlear, preguntar al experto y tus compañeros y probar todo lo que te
+> imagines. Recuerda que tu máquina no se malogrará si pones una etiqueta que no existe o
+> que está mal escrita.
 
 <br/>
 
@@ -14,15 +18,10 @@
 <p>
 
 ```html
-<form>
-    <label for="name">Nombre</label>
-    <input type="text" id="name" name="fname"><br><br>
-    <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
-    <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-    <input type="email" id="email" name="email" placeholder="Correo"><br><br>
-    <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
-    <button type="submit">Enviar</button>
-</form>
+<body>
+  <!-- Aqui va el html que hemos escrito hasta ahora-->
+  <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="imagen capterra" />
+</body>
 ```
 
 </p>
@@ -30,4 +29,5 @@
 
 <br/>
 
-[Siguiente](../reto-04/README.md)
+[Siguiente](../Ejemplo%2005/README.md)
+

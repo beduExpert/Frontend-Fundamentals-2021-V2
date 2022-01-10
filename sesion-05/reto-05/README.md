@@ -1,4 +1,4 @@
-# Recuperando el contenido de tu NavBar
+# Reto 05 - Recuperando el contenido de tu NavBar
 
 ## Objetivos
 1. Aprender cómo modificar los componentes de Bootstrap en cuanto a contenido

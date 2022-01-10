@@ -21,7 +21,8 @@ intimides y pregúntale a San Google (se volverá en uno de tus mejores amigos).
 ```html
   <p>
     Start publishing today with a <strong>free 7-day trial.</strong>
-    <br>
+  </p>
+  <p>
     <strong>No credit card</strong> required.
   </p>
 ```

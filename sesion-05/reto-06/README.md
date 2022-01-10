@@ -1,4 +1,4 @@
-# Recuperando los estilos de la barra de navegación
+# Reto-06 Recuperando los estilos de la barra de navegación
 
 ## Objetivos
 1. Aprender cómo modificar los componentes de Bootstrap en cuanto a estilos
@@ -69,7 +69,7 @@ en Bootstrap, puedes consultar [esta sección de la documentación](https://getb
 Ahora procedamos a corregir la alineación del menú de navegación, ya que
 aparece junto al logo en la parte izquierda de la pantalla y debería estar
 alineado al centro del espacio disponible del contenedor. Para esto, debemos
-modificar los estilos de la etiqueta `<ul></ul`. 
+modificar los estilos de la etiqueta `<ul></ul`.
 
 Dicha etiqueta en estos momentos tiene 2 clases (`navbar-nav` y `mr-auto`). La primera clase `navbar-nav` es importante para poder indicar que los elementos de dicha lista son los que conformarán el menú de navegación, mientras que la segunda clase `mr-auto` indica que dicha lista debe tener un margen derecho automático, y dado que a los elementos de la lista Bootstrap les asigna un `display: block;` podemos alinear su
 contenido aplicando un margen automático a cada lado. Bootstrap nos permite hacer

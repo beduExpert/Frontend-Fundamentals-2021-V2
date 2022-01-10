@@ -6,16 +6,16 @@
 ---
 <br/>
 
-## REQUISITOS
+## Requisitos
 - Tener Git Bash si usas Windows.
 - Tener conocimientos básicos de HTML y CSS
-- Tener isntalado Visual Studio Code
+- Tener instalado Visual Studio Code
 
 
 ---
 <br/>
 
-## INSTRUCCIONES
+## Instrucciones
 
 Resulta que por defecto el navegador no agrega controles de reproducción al video,
 ¿puedes buscar cómo agregárselo?
@@ -48,14 +48,6 @@ Agrega el atributo `controls` a la etiqueta `<video></video>`.
 
 <br/>
 <br/>
-
-# Reto 2.2 - Agregando la portada del video
-
-## REQUISITOS
-- Tener Git Bash si usas Windows.
-- Tener conocimientos básicos de HTML y CSS
-
-## INSTRUCCIONES
 
 Bien, nuestro videos ya cuenta con controles de reproducción, además soporta más
 de un formato para optimizar la experiencia de nuestros usuarios. Sin embargo,

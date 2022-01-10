@@ -52,19 +52,15 @@ En esta sesión aprenderás:
 
 - [Ejemplo 04: Agregando un formulario ( 8 minutos ) ](./Ejemplo%2004/README.md)
 
-- [Reto 03: Creando mi formulario ( 10 minutos ) ](./reto-03/README.md)
-
-- [Reto 04: Agregando imagen ( 8 minutos ) ](./reto-04/README.md)
+- [Reto 03: Agregando una imagen ( 8 minutos ) ](./reto-03/README.md)
 
 - [Ejemplo 05: Agregando color al texto principal ( 8 minutos ) ](./Ejemplo%2005/README.md)
 
-- [Reto 05: Cambia los colores ( 10 minutos ) ](./reto-05/README.md)
+- [Reto 04: Cambia los colores ( 10 minutos ) ](./reto-04/README.md)
 
 - [Ejemplo 06: Subiendo el proyecto a Github Pages ( 10 minutos ) ](./Ejemplo%2006/README.md)
 
-- [Reto 06: Sube una nueva versión a Github ( 10 minutos ) ](./reto-06/README.md)
-
-- [Postwork](../postwork/README.md)
+- [Postwork](./postwork/README.md)
 
 <br/>
 
