@@ -5,7 +5,7 @@ Los elementos de Bootstrap (componentes) son muy sencillos de utilizar, y agiliz
 
 ## Objetivo
 
-1. Utilizar Bootstrap para insertar un componente presideñado y reutilizable.
+1. Utilizar Bootstrap para insertar componentes prediseñados y reutilizables.
 
 ## Requisitos
 - Tener instalado Visual Studio Code
