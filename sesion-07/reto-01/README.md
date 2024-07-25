@@ -15,9 +15,7 @@
 
 ## Instrucciones
 
-Dentro de las tarjetas de los posts, hay 3 colores distintos para los distintos
-textos que tenemos. Usa el devtools para encontrar esos colores y defínelos en
-el archivo de `_global.scss`.
+Consulta en internet las fuentes que se pueden utilizar en los sitios web, selecciona dos de ellas (instalas de ser necesario) y cambia los estilos de tu sitio para que use al menos estas dos fuentes.
 
 <br/>
 

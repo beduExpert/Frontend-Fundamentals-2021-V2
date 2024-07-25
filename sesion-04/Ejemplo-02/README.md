@@ -16,8 +16,7 @@
 
 ## Desarrollo
 
-¡Empecemos! Vamos a trabajar en la sección de características principales de
-nuestra web.
+¡Empecemos! La ides es replicar la pantalla que se puede ver en la imagen siguiente.
 
 ![Características principales](../assets/features.png)
 

@@ -39,11 +39,9 @@ En esta sesión aprenderás:
 
 - [Ejemplo 03: Agregando múltiples formatos de video ( 10 minutos ) ](./Ejemplo-03/README.md)
 
-- [Reto 03: Agrega la sección de publicidad ( 10 minutos ) ](./reto-03/README.md)
-
 - [Ejemplo 04: Alineamiento horizontal con flexbox ( 15 minutos ) ](./Ejemplo-04/README.md)
 
-- [Reto 04: Agregando contenedor al video para agregar imagen ( 15 minutos ) ](./reto-04/README.md)
+- [Reto 03: Agrega la sección de publicidad ( 10 minutos ) ](./reto-03/README.md)
 
 - [Ejemplo  05: Aplicando `position:fixed` ( 10 minutos ) ](./Ejemplo-05/README.md)
 

@@ -22,6 +22,21 @@ de contenido, sin embargo nuestro menú de navegación aun no tiene la aparienci
 del sitio original, ya que se muestran de forma vertical (uno debajo del otro),
 mientras que el diseño original lo muestra horizontalmente.
 
+## Modelo de Caja 
+
+En CSS, el término "modelo de caja" se utiliza cuando hablamos de diseño y maquetación.
+
+El modelo de caja CSS es básicamente un cuadro que envuelve cada elemento HTML. Está formado por: contenido, relleno, bordes y márgenes.
+
+Explicación de las diferentes partes:
+
+- Contenido : el contenido del cuadro, donde aparecen el texto y las imágenes.
+- Relleno : limpia un área alrededor del contenido. El relleno es transparente.
+- Borde : un borde que rodea el relleno y el contenido.
+- Margen : limpia un área fuera del borde. El margen es transparente.
+
+El modelo de caja nos permite agregar un borde alrededor de los elementos y definir el espacio entre ellos. 
+
 ## Concepto: Display `block` vs `inline`
 
 ¿Por qué se muestra por defecto uno debajo de otro? Esto es debido a los estilos

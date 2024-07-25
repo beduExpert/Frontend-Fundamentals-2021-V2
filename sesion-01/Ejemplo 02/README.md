@@ -18,14 +18,14 @@
 ## Instrucciones
 
 Es momento de abrir nuestro editor de texto. Usaremos en este módulo Visual Studio Code (VSCode) y debes
-abrir con VSCode el directorio "matcha" que creamos en nuestra terminal. Recuerda la estructura:
+abrir con VSCode el directorio "sesion01" que creamos en nuestra terminal. Recuerda la estructura:
 
 ```text
 Documents/
-└── matcha/
+└── sesion01/
     └── index.html
 ```
-Esta imagen te da una idea de cómo debe quedar abierto tu VSCode en el directorio `/matcha`:
+Esta imagen te da una idea de cómo debe quedar abierto tu VSCode en el directorio `/sesion01`:
 
 ![](../assets/vscode-indexhtml.png)
 
@@ -38,7 +38,7 @@ Las etiquetas mínimas a incluir en todos los documentos de HTML que creemos son
 <html>
   <head>
     <!-- Aquí va información importante pero no visible dentro del navegador -->
-    <title>Matcha</title>
+    <title>Sesion 01</title>
   </head>
   <body>
     <!-- Esto es lo que se verá en el navegador web -->

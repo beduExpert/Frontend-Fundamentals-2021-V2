@@ -45,7 +45,7 @@ En esta sesión aprenderás:
 
 - [Ejemplo 01: Obteniendo cambios con `git pull` ( 15 minutos ) ](./Ejemplo-01/README.md)
 
-- [Ejemplo  02: Agregando características principales de Matcha ( 25 minutos ) ](./reto-01/README.md)
+- [Ejemplo  02: Agregando características principales ( 25 minutos ) ](./reto-01/README.md)
 
 - [Reto  01: Grid con 3 columnas iguales ( 15 minutos ) ](./Ejemplo-02/README.md)
 

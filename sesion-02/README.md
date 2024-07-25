@@ -30,10 +30,6 @@ En esta sesión aprenderás:
 
 - [Reto  02: Aplica el margen utilizando el atajo de la propiedad `margin` ( 15 minutos ) ](./reto-02/README.md)
 
-- [Reto  03: Alineación de texto en la barra de navegación ( 15 minutos ) ](./reto-03/README.md)
-
-- [Reto  04: Agregando estilos restantes ( 25 minutos ) ](./reto-04/README.md)
-
 - [Postwork](./postwork/README.md)
 
 <br/>

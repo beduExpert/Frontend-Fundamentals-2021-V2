@@ -132,19 +132,6 @@ ajuste a la jerarquía de información que tenemos en nuestra página:
   }
 }
 ```
-
-> TIP: El valor que hemos asignado a la propiedad `line-height` no tiene una medida, te recomendamos averiguar cómo se calcula el valor final de esta propiedad.
-> Puedes consultar la [documentación de MDN](https://developer.mozilla.org/es/docs/Web/CSS/line-height).
-
-
-<br/>
-
-Adicionalmente, cambiamos el margen superior para agregar una separación entre
-el video y el texto, y también fue necesario cambiar la propiedad `line-height`
-ya que el tamaño fijo que esta contenía era mucho para el nuevo tamaño.
-
-Por último, nos falta editar el formulario de registro.
-
 <br/>
 
 [Siguiente](../reto-04/README.md)

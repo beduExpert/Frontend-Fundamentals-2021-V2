@@ -23,15 +23,9 @@ lo cual usaremos nuestro propio video y una manera más estándar de agregarlo.
 
 Los recursos que usaremos serán:
 
-- [Portada](https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg),
-  cuando el video no haya sido reproducido, mostrará una imagen de portada.
-- [Video en formato Webm](https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm),
-  este es el video que se reproducirá cuando el navegador soporte la codificación
-  de videos con formato `webm`.
-- [Video en formato MP4](https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4),
-  este video es el más común y probablemente con mayor soporte, por lo que será
-  nuestra opción por defecto en caso el navegador que usamos no soporte
-  codificación de otros formatos.
+- Portada: cuando el video no haya sido reproducido, mostrará una imagen de portada.
+- Video en formato Webm: este es el video que se reproducirá cuando el navegador soporte la codificación de videos con formato `webm`.
+- Video en formato MP4: este video es el más común y probablemente con mayor soporte, por lo que será nuestra opción por defecto en caso el navegador que usamos no soporte codificación de otros formatos.
 
 >TIP: El video que estamos usando en el ejemplo fue obtenido de un repositorio de videos
 > gratis para usar sin fines de uso comercial. Si en caso, deseas usar otro video

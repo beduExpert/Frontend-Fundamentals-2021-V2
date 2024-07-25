@@ -12,40 +12,75 @@ El framework de Bootstrap también utiliza un lenguaje de programación para log
 
 ## Desarrollo
 
-En la sección de inicio de la documentación de Bootstrap, nosotros encontramos
-los links para el código fuente del CSS de este framework y los agregamos a
-nuestro HTML. Lo mismo sucede con JavaScript. En esta ocasión, nosotros no
-queremos agregar el CSS de Bootstrap, ahora queremos agregar el JS que este
-framework nos provee. Para esto, podemos ir a la [documentación oficial](https://getbootstrap.com/docs/5.1/getting-started/introduction/#js) y copiar el elemento que menciona en la sección **[Bundle](https://getbootstrap.com/docs/5.1/getting-started/introduction/#bundle)**.
+## Cómo agregar iconos
 
-Ahora, siguiendo las instrucciones de la documentación, simplemente pegamos ese pequeño tag `<script>`en nuestro desarrollo justo arriba de la etiqueta de cierre `</body>`.
+Para insertar un ícono, agregue el nombre de la clase de ícono a cualquier elemento HTML en línea.
+
+Los elementos `<i>` y `<span>` se utilizan ampliamente para agregar iconos.
+
+Todos los íconos en las bibliotecas de íconos a continuación son íconos vectoriales escalables que se pueden personalizar con CSS (tamaño, color, sombra, etc.)
+
+Algunas alternativas para usar iconos son:
+
+- Font Awesome
+
+```html 
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <i class="fas fa-band-aid"></i>
+    <i class="fas fa-cat"></i>
+    <i class="fas fa-dragon"></i>
+    <i class="far fa-clock"></i>
+    <i class="fas fa-clock"></i>
+
+  </body>
+</html>
+
+```
+
+- Bootstrap 3
 
 ```html
-<body>
-  <!-- Aqui va todo el contenido del proyecto -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <i class="glyphicon glyphicon-cloud"></i>
+    <i class="glyphicon glyphicon-remove"></i>
+    <i class="glyphicon glyphicon-user"></i>
+    <i class="glyphicon glyphicon-envelope"></i>
+    <i class="glyphicon glyphicon-thumbs-up"></i>
+
+  </body>
+</html>
 ```
-Si reduces la pantalla en la vista responsive del navegador, observarás que la información de la barra de navegación no está bien acomodada.
 
-![Barra de navegación de Bootstrap con contenido mal alineado](../assets/navbar-with-wrong-styles.png)
+- Google
 
-Esto se debe a los estilos que establecimos en el media query. Hay que modificarlos de esta manera:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
 
-```css
-  .actions,
-  .navbar {
-    text-align: center;
-  }
+    <i class="material-icons">cloud</i>
+    <i class="material-icons">favorite</i>
+    <i class="material-icons">attachment</i>
+    <i class="material-icons">computer</i>
+    <i class="material-icons">traffic</i>
+
+  </body>
+</html>
 ```
-Ahora, nuestra barra de navegación en pantallas pequeñas se ve correctamente alineada.
-
-![Barra de navegación de Bootstrap con contenido mal alineado](../assets/navbar-corregida.png)
-
-Con esto, ya tenemos la funcionalidad completa de Bootstrap, estilos y componentes, con lo que nuestro desarrollo tenderá a ser más ágil y rápido. Sin embargo, te sugerimos practicar continuamente para que llegues a dominar el completo potencial de este framework de CSS.
-
-<br/>
 
 [Siguiente](../reto-01)

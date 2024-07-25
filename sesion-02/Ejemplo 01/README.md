@@ -14,7 +14,18 @@
 ## Desarrollo
 
 Para nuestra barra de navegación usaremos la etiqueta `header` ya que es la
-cabecera de nuestra página. Dentro de esta etiqueta pondremos otros 3
+cabecera de nuestra página. 
+
+El elemento `<header>` representa un contenedor para contenido introductorio o un conjunto de enlaces de navegación.
+
+Un `<header>` normalmente contiene:
+
+- uno o más elementos de encabezado (`<h1> - <h6>`)
+- logotipo o icono
+- información de autoría
+
+
+Dentro de esta etiqueta pondremos otros 3
 contenedores: un link con el logo dentro, el menú de navegación y el contenedor
 de acciones de usuario.
 

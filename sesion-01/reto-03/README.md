@@ -4,7 +4,7 @@
 1. Insertar imágenes en nuestro proyecto.
 ## Desarrollo
 
-Es tu turno de agregar la última parte de la estructura que tenemos pensado para esta sesión: la imagen. Esta la puedes obtener desde este [link](https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png). También puedes comentar el contenido del formulario de práctica que hicimos en la actividad anterior.
+Es tu turno de agregar la última parte de la estructura que tenemos pensado para esta sesión: la imagen. Esta la puedes obtener desde cualquier buscador solo copiando la url de la imagen. También puedes comentar el contenido del formulario de práctica que hicimos en la actividad anterior.
 
 <br/>
 
